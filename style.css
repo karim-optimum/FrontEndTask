@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+/* start of general */
+
+
+/* end of general */
+
+
+/* start of nav */
+nav{
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  height: 72px;
+  font-size: 14px;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul{
+  list-style: none;
+}
+
+.first{
+  /* margin-left: 290px; */
+}
+
+.nav-logo{
+  font-family: 'Inter', sans-serif;
+  color: #B9D153;
+  font-size: 36px;
+
+}
+
+.first ul{
+  display: flex;
+}
+
+.first ul li{
+  padding: 0 10px;
+}
+
+.third ul{
+  display: flex;
+}
+
+.third ul li{
+  padding: 0 10px;
+}
+
+.fourth{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notify{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  padding: 0 30px;
+  border-left: 1px solid #CFCFCF;
+  border-right: 0.1px solid #CFCFCF;
+  height: 72px;
+}
+
+.user-logo{
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.user-manage{
+  display: flex;
+  align-items: center;
+}
+
+.name{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 13px;
+  padding-right: 13px;
+}
+
+.dropdown{
+  margin: 15px 50px 0 0;
+}
+/* end of nav */
+
+
+/* start of footer */
+
+.soical-media{
+  text-align: center;
+}
+.social-logo{
+  width: 30px;
+  height: 32px;
+}
+
+.footer-second{
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 72px;
+}
+
+.footer-second p{
+  font-size: 14px;
+  
+}
+
+/* end of footer */
