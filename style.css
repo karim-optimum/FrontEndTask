@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
 
 
 /* 
@@ -137,7 +138,7 @@ start of section-container
 
 .sections-container{
   width: 85%;
-  margin: 0 auto;
+  margin: 100px auto 25px auto;
 }
 
 /*
@@ -159,59 +160,55 @@ start of achievment section
 .section-header{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .achievment-section-title{
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 32px;
 }
-
 .stats{
-  /* display: flex; */
-}
+  display: flex;
+  gap: 10px;
 
-.points,.badges{
+}
+.points, .badges{
   display: flex;
   align-items: center;
-  justify-content: center;
-  display: inline;
-  width: 10%;
+  justify-content: space-evenly;
+  width: 163px;
   font-family: 'Montserrat', sans-serif;
-  padding: 12px;
+  font-weight: 700;
+  padding: 10px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.points{
-  margin-right: 15px;
-}
-
-.points img,.badges img{
-  background-color: yellow;
-}
-
 .achievments{
   display: flex;
-  gap: 25px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .achievment{
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  width: 11%;
+  width: 12%;
+  max-width: 285px;
   border: 1px solid #EBEBEB;
-  padding: 20px 60px;
+  padding: 25px 62px;
   /* background-color: red; */
 }
 
 .achievment img{
-  /* width: 127px;
-  height: 93px; */
-  width: 100%;
+  max-width: 127px;
+  height: 93px;
+  /* width: 93%; */
 }
 .achievement-text{
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -220,7 +217,7 @@ start of achievment section
 }
 
 .date{
-  margin-top: 5px;
+  margin-top: 10px;
   display: block;
   color: #6F7075;
   
