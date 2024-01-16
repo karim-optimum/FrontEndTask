@@ -286,6 +286,8 @@ button{
 .newsletter,.footer-contact-section, .footer-company-section{
   margin-top: 20px;
 }
-
+.footer-title{
+  font-weight: 800;
+}
 
 /* end of footer */
