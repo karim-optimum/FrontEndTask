@@ -255,6 +255,10 @@ end of achievment section
   margin: 20px auto;
 }
 
+.footer-first li{
+  margin: 10px 0 ;
+}
+
 .footer a{
   color: #6F7075;
   font-size: 16px;
@@ -276,5 +280,10 @@ button{
   margin: 0;
   font-weight: 600;
 }
+
+.newsletter,.footer-contact-section, .footer-company-section{
+  margin-top: 20px;
+}
+
 
 /* end of footer */
