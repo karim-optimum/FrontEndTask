@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
-/* start of general */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
 
 
-/* end of general */
+/* 
+-----------------------------------
+start of general 
+-----------------------------------
+*/
+
 body{
   background-color: #fff;
 }
 
-p{
+p,span{
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,10 +19,26 @@ p{
   font-family: 'Inter', sans-serif;
   color: #B9D153;
   font-size: 36px;
-
 }
 
-/* start of nav */
+
+
+/* 
+-----------------------------------
+end of general 
+-----------------------------------
+*/
+
+
+
+
+/* 
+-----------------------------------
+start of nav 
+-----------------------------------
+*/
+
+
 nav{
   align-items: center;
   background-color: black;
@@ -99,7 +118,125 @@ nav ul{
 .dropdown{
   margin: 15px 50px 0 0;
 }
-/* end of nav */
+
+
+/* 
+-----------------------------------
+end of nav 
+-----------------------------------
+*/
+
+
+
+
+/* 
+-----------------------------------
+start of section-container 
+-----------------------------------
+*/
+
+.sections-container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+/*
+-----------------------------------
+end of section-container 
+-----------------------------------
+*/
+
+
+
+
+
+/* 
+-----------------------------------
+start of achievment section 
+-----------------------------------
+*/
+
+.section-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.achievment-section-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+}
+
+.stats{
+  /* display: flex; */
+}
+
+.points,.badges{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  width: 10%;
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.points{
+  margin-right: 15px;
+}
+
+.points img,.badges img{
+  background-color: yellow;
+}
+
+.achievments{
+  display: flex;
+  gap: 25px;
+}
+
+.achievment{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 11%;
+  border: 1px solid #EBEBEB;
+  padding: 20px 60px;
+  /* background-color: red; */
+}
+
+.achievment img{
+  /* width: 127px;
+  height: 93px; */
+  width: 100%;
+}
+.achievement-text{
+  margin-top: 5px;
+  text-align: center;
+}
+
+.offer{
+  font-weight: 600;
+}
+
+.date{
+  margin-top: 5px;
+  display: block;
+  color: #6F7075;
+  
+}
+/*
+-----------------------------------
+end of achievment section 
+-----------------------------------
+*/
+
+
+
+
+
+
+
 
 
 /* start of footer */
@@ -126,5 +263,4 @@ nav ul{
   font-size: 14px;
   
 }
-
 /* end of footer */
