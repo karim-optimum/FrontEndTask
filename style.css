@@ -4,7 +4,20 @@
 
 
 /* end of general */
+body{
+  background-color: #fff;
+}
 
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+  font-family: 'Inter', sans-serif;
+  color: #B9D153;
+  font-size: 36px;
+
+}
 
 /* start of nav */
 nav{
@@ -12,7 +25,6 @@ nav{
   background-color: black;
   color: #fff;
   display: flex;
-  font-family: 'Montserrat', sans-serif;
   height: 72px;
   font-size: 14px;
   justify-content: space-between;
@@ -32,12 +44,7 @@ nav ul{
   /* margin-left: 290px; */
 }
 
-.nav-logo{
-  font-family: 'Inter', sans-serif;
-  color: #B9D153;
-  font-size: 36px;
 
-}
 
 .first ul{
   display: flex;
