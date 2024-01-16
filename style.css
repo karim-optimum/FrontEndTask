@@ -292,4 +292,12 @@ button{
   font-weight: 800;
 }
 
+.footer-second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 72px;
+  background-color: #000;
+}
 /* end of footer */
