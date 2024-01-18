@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
 
-/* 
------------------------------------
-start of general 
------------------------------------
-*/
+/* ----------------- start of general ----------------- */
 
 body{
   background-color: #FAFAFA;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  position: relative;
 }
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
 
 .logo{
   font-family: 'Inter', sans-serif !important;
@@ -20,10 +23,7 @@ body{
 
 .green-color{
   color: #B9D153;
-}
-
-ul{
-  list-style: none;
+  font-weight: 600;
 }
 
 .d-flex{
@@ -35,24 +35,23 @@ ul{
   color: #fff;
   border-radius: 20px;
   border: none;
-  padding: 12px 27px;
+  width: 168px;
+  height: 42px;
+  /* padding: 12px 27px; */
   margin: 0;
   font-weight: 600;
 }
 
+input{
+  border-radius: 20px;
+  padding: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
 
-/* 
------------------------------------
-end of general 
------------------------------------
-*/
+/* ----------------- end of general ----------------- */
 
 
-/* 
------------------------------------
-start of nav 
------------------------------------
-*/
+/* ----------------- start of nav ----------------- */
 
 nav{
   align-items: center;
@@ -105,77 +104,89 @@ nav a{
   justify-content: center;
 }
 
-/* 
------------------------------------
-end of nav 
------------------------------------
-*/
+/* ----------------- end of nav ----------------- */
 
+/* ----------------- start of sections container ----------------- */
 
+.sections-container{
+  margin: 100px auto 25px auto;
+  width: 100%;
+}
 
-/* 
------------------------------------
-start of profile section 
------------------------------------
-*/
+/* ----------------- end of sections container ----------------- */
+
+/* ----------------- start of profile ----------------- */
+
 .profile{
+  background-color: #fff;
+  border-bottom: 4px solid #C4C4C4;
   margin-bottom: 100px;
+  padding-bottom: 80px;
 }
+
 .container{
-  display: flex;
-  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  gap: 82px;
+
 }
+
+.user-information{
+  flex-direction: column;
+  justify-content: center;
+  gap:20px;
+}
+
 .connection{
   justify-content: space-between;
   margin-top: 10px;
 }
+
 .jacob{
   font-size: 36px;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 
-.user-information{
+
+.specifications{
   align-items: center;
-  flex-direction: column;
 }
 
-.job{
+.info{
+  flex-direction: column;
+  margin-right: 5px;
 }
 
 .skills{
   justify-content: space-between;
+  margin-top: 30px;
 }
 
-/* 
------------------------------------
-end of profile section 
------------------------------------
-*/
-
-
-/* 
------------------------------------
-start of section-container 
------------------------------------
-*/
-
-.sections-container{
-  margin: 100px auto 25px auto;
-  width: 85%;
+.about-me{
+  margin-top: 30px ;
 }
 
-/*
------------------------------------
-end of section-container 
------------------------------------
-*/
+.email, .phone{
+  margin-top: 40px;
+}
+
+.space{
+  margin-bottom: 3px;
+}
 
 
-/* 
------------------------------------
-start of achievment section 
------------------------------------
-*/
+/* ----------------- end of profile ----------------- */
+
+
+
+
+/* ----------------- start of achievement section ----------------- */
+
+.achievments-section{
+  width: 80%;
+  margin: 0 auto;
+}
 
 .section-header{
   justify-content: space-between;
@@ -188,10 +199,9 @@ start of achievment section
 }
 
 .stats{
-  /* display: flex; */
   gap: 13px;
-
 }
+
 .points, .badges{
   align-items: center;
   border-radius: 30px;
@@ -238,18 +248,21 @@ start of achievment section
   color: #6F7075;
   
 }
-/*
------------------------------------
-end of achievment section 
------------------------------------
-*/
 
+/* ----------------- end of achievement ----------------- */
 
-/* 
------------------------------------
-start of listing section 
------------------------------------
-*/
+/* ----------------- start of listing ----------------- */
+
+.listings-section{
+    width: 80%;
+  margin: 0 auto;
+}
+
+.listing-title{
+  font-size: 32px;
+  font-weight: 600;
+}
+
 .cards{
   display: flex;
   justify-content: space-between;
@@ -258,13 +271,38 @@ start of listing section
 
 .card{
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  padding: 15px;
+  margin: 0 10px 0 0;
   position: relative;
-  z-index: -1;
 }
 
-.image img{
-  width: 104%;
+.image-1 {
+  background-image: url("images/first-house.png");
+  background-repeat: no-repeat;
+  height: 258px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-2 {
+  background-image: url("images/second-house.png");
+  background-repeat: no-repeat;
+  height: 258px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-3 {
+  background-image: url("images/third-house.png");
+  background-repeat: no-repeat;
+  height: 258px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .closed-img {
@@ -302,20 +340,10 @@ start of listing section
   padding: 9px;
 }
 
-/* 
------------------------------------
-end of listing section 
------------------------------------
-*/
+/* ----------------- end of listing ----------------- */
 
 
-
-
-/* 
------------------------------------
-start of footer 
------------------------------------
-*/
+/* ----------------- start of footer ----------------- */
 
 .social-media{
   text-align: center;
@@ -326,12 +354,9 @@ start of footer
   width: 85%;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   margin: 20px auto;
 }
-ul{
-  padding: 0;
-}
+
 .footer-first li{
   margin: 10px 0;
 }
@@ -340,22 +365,12 @@ ul{
   color: #6F7075;
 }
 
-input{
-  border-radius: 20px;
-  padding: 4px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-
-
 .share{
   border: none;
   background-color: #fff;
 }
 
-.listing-title{
-  font-weight: 600;
-}
+
 
 .newsletter,.footer-contact-section, .footer-company-section{
   margin-top: 24px;
@@ -375,8 +390,4 @@ input{
   margin-top: 45px;
 }
 
-/* 
------------------------------------
-end of footer 
------------------------------------
-*/
+/* ----------------- end of footer ----------------- */
