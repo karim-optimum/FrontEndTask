@@ -271,35 +271,42 @@ nav a{
 
 .card{
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  margin: 0 10px 0 0;
-  position: relative;
-  padding: 15px;
+  /* padding: 15px; */
+  width: 392px;
+}
+
+.price-tag{
+  font-size: 20px;
 }
 
 .image-1 {
   background-image: url("images/first-house.png");
-  background-repeat: no-repeat;
-  height: 258px;
-
+  position: relative;
 }
+
 
 .image-2 {
   background-image: url("images/second-house.png");
-  background-repeat: no-repeat;
-  height: 258px;
-
 }
 
 .image-3 {
   background-image: url("images/third-house.png");
-  background-repeat: no-repeat;
-  height: 258px;
+}
 
+.image{
+    background-repeat: no-repeat;
+    height: 258px;
+    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
 }
 
 .closed-img {
   position: absolute;
-  top: 59%;
+  top: 89%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
@@ -363,14 +370,20 @@ nav a{
   background-color: #fff;
 }
 
-
-
 .newsletter,.footer-contact-section, .footer-company-section{
   margin-top: 24px;
 }
 
 .footer-title{
   font-weight: 800;
+  padding-top: 20px;
+}
+
+.asset-info{
+  width: 80%;
+  /* padding: 20px;/ */
+
+  margin: auto;
 }
 
 .footer-second{
