@@ -273,36 +273,28 @@ nav a{
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   margin: 0 10px 0 0;
   position: relative;
+  padding: 15px;
 }
 
 .image-1 {
   background-image: url("images/first-house.png");
   background-repeat: no-repeat;
   height: 258px;
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
 }
 
 .image-2 {
   background-image: url("images/second-house.png");
   background-repeat: no-repeat;
   height: 258px;
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
 }
 
 .image-3 {
   background-image: url("images/third-house.png");
   background-repeat: no-repeat;
   height: 258px;
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
 }
 
 .closed-img {
@@ -337,7 +329,8 @@ nav a{
 }
 
 .view-listings{
-  padding: 9px;
+  width: 140px;
+  height: 36px;
 }
 
 /* ----------------- end of listing ----------------- */
