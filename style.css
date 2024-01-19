@@ -254,8 +254,9 @@ nav a{
 /* ----------------- start of listing ----------------- */
 
 .listings-section{
-    width: 80%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 100px auto;
+
 }
 
 .listing-title{
@@ -271,8 +272,8 @@ nav a{
 
 .card{
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  /* padding: 15px; */
-  width: 392px;
+  width: 404px;
+  height: 494px;
 }
 
 .price-tag{
@@ -283,7 +284,6 @@ nav a{
   background-image: url("images/first-house.png");
   position: relative;
 }
-
 
 .image-2 {
   background-image: url("images/second-house.png");
@@ -296,7 +296,6 @@ nav a{
 .image{
     background-repeat: no-repeat;
     height: 258px;
-    
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -312,33 +311,7 @@ nav a{
   z-index: 999;
 }
 
-.price{
-  display: flex;
-  justify-content: space-between;
-}
 
-.card p{
-  margin-top: 0;
-}
-
-.accomodations{
-  margin-bottom: 20px;
-}
-
-.sale{
-  font-weight: 600;
-}
-
-.information{
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-.view-listings{
-  width: 140px;
-  height: 36px;
-}
 
 /* ----------------- end of listing ----------------- */
 
