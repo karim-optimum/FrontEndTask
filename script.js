@@ -1,4 +1,7 @@
 let shareButtons = document.querySelectorAll('.share');
+let contactButton = document.querySelector('.contact-btn');
+let formPopUp = document.querySelector('.form-popup'); 
+let exitButton = document.querySelector('.exit'); 
 let url = '';
 
 shareButtons.forEach((shareButton) => {
@@ -8,7 +11,11 @@ shareButtons.forEach((shareButton) => {
   };
 });
 
-let contactButton = document.querySelector('.contact-btn');
 contactButton.onclick = () => {
-  console.log('hello')
+
+  formPopUp.style.display = 'block';
+}
+
+exitButton.onclick = () => {
+  formPopUp.style.display = 'none';
 }
