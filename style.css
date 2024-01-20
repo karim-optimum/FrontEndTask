@@ -40,7 +40,11 @@ ul{
   height: 36px;
   justify-content: center;
   margin: 0;
-  width: 140px;
+  width: 168px;
+}
+
+.social-media-profile{
+  margin-left: 5px ;
 }
 
 input{
@@ -127,9 +131,8 @@ nav a{
 
 .container{
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto; 
   gap: 82px;
-
 }
 
 .user-information{
@@ -426,6 +429,10 @@ footer{
 
 .logo-footer{
   
+}
+
+.subscribe-containe{
+  position: relative;
 }
 
 .footer-first{
