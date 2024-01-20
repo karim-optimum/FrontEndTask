@@ -1,7 +1,14 @@
-let shareButton = document.querySelector('.share');
+let shareButtons = document.querySelectorAll('.share');
 let url = '';
 
-shareButton.onclick = function(){
-  url = window.location.href;
-  console.log(url);
-} 
+shareButtons.forEach((shareButton) => {
+  shareButton.onclick = () => {
+    url = window.location.href;
+    console.log(url);
+  };
+});
+
+let contactButton = document.querySelector('.contact-btn');
+contactButton.onclick = () => {
+  console.log('hello')
+}

@@ -31,15 +31,16 @@ ul{
 }
 
 .btn{
+  align-items: center;
   background-color: #B9D153;
-  color: #fff;
-  border-radius: 20px;
   border: none;
-  width: 168px;
-  height: 42px;
-  /* padding: 12px 27px; */
-  margin: 0;
+  border-radius: 20px;
+  color: #fff;
   font-weight: 600;
+  height: 36px;
+  justify-content: center;
+  margin: 0;
+  width: 140px;
 }
 
 input{
@@ -254,12 +255,13 @@ nav a{
 /* ----------------- start of listing ----------------- */
 
 .listings-section{
-  width: 80%;
-  margin: 100px auto;
+  width: 90%;
+  margin: 100px auto 75px auto;
 
 }
 
 .listing-title{
+  margin-bottom: 10px;
   font-size: 32px;
   font-weight: 600;
 }
@@ -268,12 +270,38 @@ nav a{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
 }
 
 .card{
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  width: 404px;
+  width: 392px;
   height: 494px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.image{
+  background-repeat: no-repeat;
+  color: #fff;
+  flex-direction: column;
+  height: 258px;
+  width: 404px;
+  justify-content: space-between;
+}
+
+.sale-tag{
+  width: 58px;
+  height: 20.85px;
+  padding: 3px;
+  text-align: center;
+  background-color: #B9D153;
+  border-radius: 5px;
+}
+
+.price{
+  justify-content: space-between;
 }
 
 .price-tag{
@@ -293,14 +321,48 @@ nav a{
   background-image: url("images/third-house.png");
 }
 
-.image{
-    background-repeat: no-repeat;
-    height: 258px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    display: flex;
+.accomodation span{
+  font-weight: 600;
+}
+
+
+
+.image-info{
+  margin: 14px auto;
+  width: 92%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-row{
+  justify-content: space-between;
+}
+
+.images-uploaded{
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  width: 42.6px;
+  height: 19.94px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.location{
+  font-weight: 500;
+  gap: 7px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  width: 118px;
+  height: 21px;
+  justify-content: center;
+  padding: 3px;
+}
+
+.share{
+  border: none;
+  background-color: #fafafa;
 }
 
 .closed-img {
@@ -311,23 +373,66 @@ nav a{
   z-index: 999;
 }
 
+.card-information{
+  flex-direction: column;
+  gap: 24px;
+}
 
+
+
+.accomodations{
+  align-items: center;
+  gap: 30px;
+}
+
+.accomodation{
+  align-items: center;
+  gap: 10px;
+}
+
+.card-information{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.information{
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.sale{
+  font-weight: 600;
+}
 
 /* ----------------- end of listing ----------------- */
 
 
 /* ----------------- start of footer ----------------- */
 
+footer{
+  border-top: 5px solid #fff;
+  padding-top: 35px;
+}
+
 .social-media{
   text-align: center;
-  margin-top: 100px;
-
 }
+
+.social-media .icon{
+  margin-right: 3px;
+  width: 32px;
+}
+
+.logo-footer{
+  
+}
+
 .footer-first{
-  width: 85%;
   display: flex;
   justify-content: space-between;
-  margin: 20px auto;
+  margin: 3px auto 10px auto;
+  width: 85%;
 }
 
 .footer-first li{
@@ -338,34 +443,28 @@ nav a{
   color: #6F7075;
 }
 
-.share{
-  border: none;
-  background-color: #fff;
-}
-
 .newsletter,.footer-contact-section, .footer-company-section{
-  margin-top: 24px;
+  margin-top: 40px;
 }
 
 .footer-title{
   font-weight: 800;
-  padding-top: 20px;
+  font-size: 20px;
+  padding: 0 0 30px 0;
 }
 
 .asset-info{
-  width: 80%;
-  /* padding: 20px;/ */
-
   margin: auto;
+  width: 80%;
 }
 
 .footer-second{
-  display: flex;
-  justify-content: center;
   align-items: center;
-  color: #fff;
-  height: 72px;
   background-color: #000;
+  color: #fff;
+  display: flex;
+  height: 72px;
+  justify-content: center;
   margin-top: 45px;
 }
 
