@@ -18,19 +18,18 @@
 }
 
 .container{
-  width: 80%;
+  width: 83%;
   margin: 0 auto;
-  flex-basis: 88%;
-      /* gap: 5%; */
-    margin-inline-end: 0;
-    margin-inline-start: 10%;
+  /* flex-basis: 89%; */
+  /* gap: 5%; */
+  /* margin-inline-end: 0; */
 }
 
 .user-information{
   flex-direction: column;
   gap:20px;
   margin-top: 35px;
-  margin-left: 200px;
+  margin-left: 70px;
 }
 
 .connection{
@@ -76,6 +75,7 @@
 .social-media-profile{
   width: 43px;
   height: 43px;
+  margin-right: 8px;
 }
 
 .profile-icons{
@@ -89,15 +89,22 @@
 
 @media (max-width: 428px) {
 
+  .profile{
+    justify-content: center;
+    border: none;
+    padding-bottom: 20px;
+  }
+
   .container{
     flex-direction: column;
     width:80%;
     margin: 0 auto;
-
   }
+
   .user-information{
     flex-direction: column;
     gap:20px;
+    margin-left: 30px;
   }
 
   .man-pic{
@@ -105,37 +112,41 @@
     top: -50px;
     width: 340px;
   }
+  
+  .pic-info-empty{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 100px;
+  }
 
   .connection{
     align-items: center;
     bottom:55px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     justify-content: center;
     position: absolute;
     right: 50px;
-    transform: translate( 3%, 122%);
+    transform: translate( 23%, 86%);
   }
 
-  .profile{
-    justify-content: center;
-    border: none;
-    padding-bottom: 15px;
+  .btn{
+    height: 42px;
+    width: 149px;
+    padding: 0;
+    font-weight: 600;
+  }
+
+  .info{
+    text-align: center;
+  }
+
+  .search-icon{
+    margin-bottom: 35px;
   }
 
   .specifications{
     justify-content: center;
-  }
-
-  .skills-div{
-    align-items: center;
-    justify-content: center;
-  }
-
-  .pic-info-empty{
-    width: 100%;
-    height: 200px
   }
 
   .social-media-profile{
@@ -145,17 +156,9 @@
 
   .phone-icon{
     display: inline;
-    width: 51px;
-    height: 51px;
-    margin: 0;
-  }
-
-  .jacob{
-    margin-top: 50px;
-  }
-
-  .info{
-    text-align: center;
+    width: 48px;
+    height: 48px;
+    margin: 0 5px 0 0;
   }
 
   .skills{
@@ -170,14 +173,22 @@
   position: absolute;
   right: -130px;
   bottom: -12px;
-  margin-bottom: 468px;
+  margin-bottom: 460px;
   margin-right: 132px;
 }
 
 .value{
   margin-bottom: 20px;
 }
-  
+
+.specifications{
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: 140px;
+  margin-right: 70px;
+  width: 90%;
+}
+
 }
 
 /* ----------------- end of media query ----------------- */

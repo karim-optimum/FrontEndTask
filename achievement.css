@@ -90,15 +90,16 @@
   }
 
   .achievments{
-    /* flex-grow: 0; */
-    gap: 5px;
+    width: 80%;
+    margin: 0 auto;
+    gap: 0 20px;
   }
   
   .achievment{
     max-height: 128px;
     max-width: 130px;
     font-size: 12px;
-    margin-top: 25px;
+    margin-top: 20px;
   }
 
   .achievment img{

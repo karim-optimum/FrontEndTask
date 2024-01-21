@@ -18,6 +18,10 @@ nav a{
   text-decoration: none;
 }
 
+nav a:hover{
+  color: #B9D153;
+}
+
 .hamburger{
   display: none;
   cursor: pointer;
@@ -127,6 +131,7 @@ nav a{
     transition: 0.3s;
     width: 100%;
     color: #fff;
+    z-index: 3;
   }
 
   a{
@@ -135,6 +140,14 @@ nav a{
 
   .nav-menu.active{
     left: 0;
+  }
+
+  .nav-item{
+    margin: 5px;
+  }
+
+  .nav-link:hover{
+    color: #B9D153;
   }
 }
 
