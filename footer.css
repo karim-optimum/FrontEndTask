@@ -1,0 +1,97 @@
+/* ----------------- start of desktop ----------------- */
+
+footer{
+  border-top: 5px solid #fff;
+  padding-top: 35px;
+}
+
+.social-media{
+  text-align: center;
+}
+
+.social-media .icon{
+  margin-right: 3px;
+  width: 32px;
+}
+
+.logo-footer{
+  
+}
+
+.subscribe-containe{
+  position: relative;
+}
+
+.footer-first{
+  display: flex;
+  justify-content: space-between;
+  margin: 3px auto 10px auto;
+  width: 85%;
+}
+
+.footer-first li{
+  margin: 10px 0;
+}
+
+.footer a{
+  color: #6F7075;
+}
+
+.newsletter,.footer-contact-section, .footer-company-section{
+  margin-top: 40px;
+}
+
+.footer-title{
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0 0 30px 0;
+}
+
+.asset-info{
+  margin: auto;
+  width: 80%;
+}
+
+.footer-second{
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  height: 72px;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.subscribe-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 40px;
+  padding-left: 20px;
+  margin: 20px 0;
+  border: 1px solid #d9d9d9;
+
+}
+
+#input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 13px;
+  font-size: 15px;
+}
+
+.btn-subscribe {
+  border: none;
+  outline: none;
+  background-color: #B9D153;
+  color: #fff;
+  padding: 13px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+/* ----------------- end of desktop ----------------- */

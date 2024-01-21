@@ -1,0 +1,69 @@
+/* ----------------- start of desktop ----------------- */
+
+.achievments-section{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-header{
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.achievment-section-title{
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.stats{
+  gap: 13px;
+}
+
+.points, .badges{
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-weight: 600;
+  justify-content: space-evenly;
+  padding: 5px;
+  width: 163px;
+}
+
+.achievments{
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.achievment{
+  align-items: center;
+  border: 1px solid #EBEBEB;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 45px;
+  width: 12%;
+  max-width: 285px;
+}
+
+.achievment img{
+  height: 93px;
+  max-width: 127px;
+}
+.achievement-text{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.offer{
+  font-weight: 600;
+}
+
+.date{
+  margin-top: 10px;
+  display: block;
+  color: #6F7075;
+  
+}
+
+/* ----------------- end of desktop ----------------- */

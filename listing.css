@@ -1,0 +1,149 @@
+/* ----------------- start of desktop ----------------- */
+
+.listings-section{
+  width: 90%;
+  margin: 100px auto 75px auto;
+
+}
+
+.listing-title{
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 60px 90px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.card{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 392px;
+  height: 494px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.image{
+  background-repeat: no-repeat;
+  color: #fff;
+  flex-direction: column;
+  height: 258px;
+  width: 404px;
+  justify-content: space-between;
+}
+
+.sale-tag{
+  width: 58px;
+  height: 20.85px;
+  padding: 3px;
+  text-align: center;
+  background-color: #B9D153;
+  border-radius: 5px;
+}
+
+.price{
+  justify-content: space-between;
+}
+
+.price-tag{
+  font-size: 20px;
+}
+
+.image-1 {
+  background-image: url("images/first-house.png");
+  position: relative;
+}
+
+.image-2 {
+  background-image: url("images/second-house.png");
+}
+
+.image-3 {
+  background-image: url("images/third-house.png");
+}
+
+.accomodation span{
+  font-weight: 600;
+}
+
+.image-info{
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  margin: 14px auto;
+  width: 92%;
+}
+
+.first-row{
+  justify-content: space-between;
+}
+
+.images-uploaded{
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  font-weight: 600;
+  height: 19.94px;
+  justify-content: center;
+  width: 42.6px;
+}
+
+.location{
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  font-weight: 500;
+  gap: 7px;
+  height: 21px;
+  justify-content: center;
+  padding: 3px;
+  width: 118px;
+}
+
+.share{
+  background-color: #fafafa;
+  border: none;
+}
+
+.closed-img {
+  left: 50%;
+  position: absolute;
+  top: 104%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+.card-information{
+  flex-direction: column;
+  gap: 24px;
+}
+
+.accomodations{
+  align-items: center;
+  gap: 30px;
+}
+
+.accomodation{
+  align-items: center;
+  gap: 10px;
+}
+
+.card-information{
+  margin: 0 auto;
+  width: 95%;
+}
+
+.information{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sale{
+  font-weight: 600;
+}
+
+/* ----------------- end of desktop ----------------- */
