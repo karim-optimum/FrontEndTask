@@ -1,5 +1,7 @@
 /* ----------------- start of desktop ----------------- */
-
+  .header-mobile{
+    display: none;
+  }
 nav{
   align-items: center;
   background-color: black;
@@ -16,20 +18,27 @@ nav a{
   text-decoration: none;
 }
 
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
 .first{
   margin-left: 216px;
 }
+
 .pic-info{
   position: relative;
 }
+
 .man-pic{
   position: absolute;
   top: -50px;
 }
+
 .first ul li, .third ul li {
   padding: 0 10px;
 }
-
 
 .fourth{
   align-items: center;
@@ -62,8 +71,71 @@ nav a{
 
 /* ----------------- start of media query ----------------- */
 
-@media (max-width: 428px) {
-  
+@media (max-width: 768px) {
+  .navbar-desktop{
+    display: none !important;
+  }
+
+  .header-mobile{
+    display: block;
+  }
+
+  .navbar{
+    flex-direction: row;
+    padding: 0 20px 0 55px;
+    height: 72px;
+  }
+
+  .reverifi{
+    font-size: 36px;
+  }
+
+  .bar{
+    background-color: #fff;
+    display: block;
+    height: 3px;
+    margin: 5px auto;
+    width: 25px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+
+    .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu{
+    background-color: #262626;
+    flex-direction: column;
+    gap: 0;
+    left: 100%;
+    position: fixed;
+    text-align: center;
+    top: 70px;
+    transition: 0.3s;
+    width: 100%;
+    color: #fff;
+  }
+
+  a{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
 }
 
 /* ----------------- end of media query ----------------- */
