@@ -41,3 +41,15 @@ hamburgerMenu.onclick = ()=> {
   hamburgerMenu.classList.toggle("active");
   navMenu.classList.toggle("active");
 }
+
+function closePopup() {
+  // Code to close the popup
+  formPopUp.style.display = 'none';
+}
+
+// Add a click event listener to the document
+document.addEventListener('click', function(event) {
+  if (formPopUp.contains(event.target)) {
+    closePopup();
+  }
+});
