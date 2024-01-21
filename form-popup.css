@@ -1,11 +1,9 @@
 /* ----------------- start of desktop ----------------- */
 
 .form-popup{
-  align-items: center;
   background-color: rgba(88, 88, 88, 0.5);
   display: none;
   height: 100%;
-  justify-content: center;
   left: 0;
   position: fixed;
   top: 0;
@@ -23,6 +21,7 @@
   padding: 10px 20px;
   position: absolute;
   width: 44%;
+  height: 500px;
 }
 
 .contact-pop-up{
@@ -32,10 +31,12 @@
 
 .exit{
   color: #B9D153;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 500;
-  margin-right: 10px;
-  margin-top: 14px;
+}
+
+.popup-title{
+  margin-top: 5px;
 }
 
 .exit:hover{
@@ -55,7 +56,7 @@
 }
 
 .textarea{
-  height: 236px;
+  height: 150px;
   padding: 7px;
 }
 
