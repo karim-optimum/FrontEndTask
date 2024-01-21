@@ -46,7 +46,7 @@
     	</div>
    </nav>
 
-   <div class="form-popup">
+   <div class="form-popup d-flex form-display">
       <form class="form-container">
          <div class="contact-pop-up d-flex">
             <h1>Contact Jacob Jones</h1>
@@ -83,11 +83,11 @@
 					<div class="connection d-flex" style="padding-top: 45px;">
 						<button class="btn contact-btn">Contact</button>
 						<div>
-							<img class="social-media-profile" src="images/profile-facebook.png" alt="facebook">
-							<img class="social-media-profile" src="images/profile-youtube.png" alt="youtube">
-							<img class="social-media-profile phone-icon" src="images/svg/Group_111318.svg" alt="phone">
-							<img class="social-media-profile" src="images/profile-linkedin.png" alt="linkedin">
-							<img class="social-media-profile" src="images/profile-instagram.png" alt="instagram">
+							<a href="#" target="_blank"><img class="social-media-profile" src="images/profile-facebook.png" alt="facebook"></a>
+							<a href="#" target="_blank"><img class="social-media-profile" src="images/profile-youtube.png" alt="youtube"></a>
+							<a href="#" target="_blank"><img class="social-media-profile phone-icon" src="images/phone.png" alt="phone"></a>
+							<a href="#" target="_blank"><img class="social-media-profile" src="images/profile-linkedin.png" alt="linkedin"></a>
+							<a href="#" target="_blank"><img class="social-media-profile" src="images/profile-instagram.png" alt="instagram"></a>
 						</div>
 					</div>
 				</div>
@@ -95,18 +95,18 @@
       
 				<div class="user-information d-flex">
 					<div class="specifications d-flex">
-						<div class="info d-flex">
+                  <div class="info d-flex">
 							<p class="jacob">Jacob Jones</p>
 							<p>Lender/Mortgage</p=>
 							<p>NMLS #068543894</p>
 						</div>
 						<img width="35px" height="30.61px" src="images/search-icon.png" alt="search-icon">
-					</div>
-				
+               </div>
+
 					<div class="about-me">
 						<p class="green-color space about">About</p>
 						<p>Lorem ipsum dolor sit amet consectetur. Rhoncus ultrices sed aliquam tristique orci velit est tellus. Et sed enim ut at scelerisque. Tincidunt proin justo nisi a. Iaculis potenti sagittis in tincidunt arcu diam nisl.</p>
-					<div class="skills-div">
+					<!-- <div class="skills-div"> -->
 						<div class="skills d-flex">
 							<div class="two-skill-1">
 								<p class="green-color space">Language</p>
@@ -124,25 +124,22 @@
 								<p>jacob.jones@example.com</p>
 							</div>
 
+                     <div class="profile-icons d-flex">
+                        <div class="empty"></div>
+                           <img src="images/heart.png" alt="like">
+                           <img src="images/share.png" alt="share">
+                        </div>
+                     </div>
 						</div>
-
-						<div class="profile-icons" style="margin-top: 97px;">
-							<div class="empty"></div>
-								<img src="images/heart.png" alt="like">
-								<img src="images/share.png" alt="share">
-							</div>
-					</div>
-
-
-							</div> 
-					</div>
-				</div>
-			</div>
-		</div>
+               <!-- </div> ....... -->
+            </div>
+         </div>
+      </div>
+   </div>
 
 		<section class="achievments-section">
 		
-			<div class="section-header d-flex">
+			<div class="section-header">
 				<span class="achievment-section-title">Achievements</span>
 			
 				<div class="stats d-flex">
@@ -379,13 +376,16 @@
 
   
    <footer class="footer">
+      <div class="footer-container">
+
+      
 		<div class="social-media">
 			<img class="icon" src="images/instagram 1.png" alt="instagram">
 			<img class="icon" src="images/linkedin 1.png" alt="linkedin">
 			<img class="icon" src="images/share-listing-twitter 1.png" alt="twitter">
 		</div>
 			
-		<div class="footer-first">
+		<div class="footer-first d-flex">
 			<h1 class="logo logo-footer green-color">reverifi</h1>
 			<div class="footer-company-section">
 				<h3 class="green-color footer-title">Company</h3>
@@ -413,8 +413,8 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="footer-second">
+</div>
+		<div class="footer-second d-flex">
 			<p>Copyright @2023 reverifi. All rights reserved.</p>
 		</div>
 	</footer>

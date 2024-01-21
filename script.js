@@ -15,11 +15,12 @@ shareButtons.forEach((shareButton) => {
 });
 
 contactButton.onclick = () => {
+  formPopUp.classList.remove('form-display');
   formPopUp.style.display = 'block';
 }
 
 exitButton.onclick = () => {
-  formPopUp.style.display = 'none';
+  formPopUp.classList.add('form-display');
 }
 
 popUpBtn.onclick = () =>{

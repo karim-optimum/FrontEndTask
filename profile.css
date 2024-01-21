@@ -37,7 +37,6 @@
   margin-top: 10px;
 }
 
-
 .jacob{
   font-size: 36px;
   font-weight: 600;
@@ -56,6 +55,7 @@
 .skills{
   justify-content: space-between;
   margin-top: 30px;
+  display: flex;
 }
 
 .about-me{
@@ -63,11 +63,7 @@
   position: relative;
 }
 
-.profile-icons{
-  position: absolute;
-  right: -130px;
-  bottom: -12px;
-}
+
 
 .email, .phone{
   margin-top: 40px;
@@ -78,7 +74,12 @@
 }
 
 .social-media-profile{
-  margin-left: 5px ;
+  width: 43px;
+  height: 43px;
+}
+
+.profile-icons{
+  align-items: flex-end;
 }
 
 /* ----------------- end of desktop ----------------- */
@@ -89,51 +90,86 @@
 @media (max-width: 428px) {
 
   .container{
-    width:100%;
     flex-direction: column;
+    width:80%;
+    margin: 0 auto;
 
   }
   .user-information{
     flex-direction: column;
     gap:20px;
   }
-  .connection{
-    position: absolute;
-    bottom:55px;
-    transform: translate(0, 10px);
-    right: 50px;
-  }
+
   .man-pic{
     position: absolute;
     top: -50px;
     width: 340px;
   }
+
   .connection{
+    align-items: center;
+    bottom:55px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
+    justify-content: center;
+    position: absolute;
+    right: 50px;
+    transform: translate( 3%, 122%);
   }
+
   .profile{
-    display: flex;
     justify-content: center;
+    border: none;
+    padding-bottom: 30px;
   }
+
   .specifications{
-    display: flex;
     justify-content: center;
   }
+
   .skills-div{
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
+
   .pic-info-empty{
     width: 400px;
     height: 200px
   }
+
+  .social-media-profile{
+    height: 42px;
+    width: 42px;
+  }
+
+  .phone-icon{
+    display: inline;
+    width: 51px;
+    height: 51px;
+    margin: 0;
+  }
+
+  .jacob{
+    margin-top: 50px;
+  }
+
+  .info{
+    text-align: center;
+  }
+
+  .skills{
+    flex-direction: column;
+  }
+
+  .profile-icons{
+  position: absolute;
+  right: -130px;
+  bottom: -12px;
+  margin-bottom: 468px;
+  margin-right: 132px;
 }
-
-
+  
+}
 
 /* ----------------- end of media query ----------------- */

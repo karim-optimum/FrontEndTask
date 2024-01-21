@@ -1,23 +1,28 @@
 /* ----------------- start of desktop ----------------- */
 
 .form-popup{
+  align-items: center;
   background-color: rgba(88, 88, 88, 0.5);
   display: none;
   height: 100%;
-  width: 100%;
+  justify-content: center;
+  left: 0;
   position: fixed;
   top: 0;
-  left: 0;
+  width: 100%;
   z-index: 2;
+}
+
+.form-display{
+  display: none !important;
 }
 
 .form-container{
   background-color: #fff;
-  margin: 0 auto;
-  width: 44%;
   border-radius: 30px;
-  position: absolute;
   padding: 10px 20px;
+  position: absolute;
+  width: 44%;
 }
 
 .contact-pop-up{
@@ -29,8 +34,8 @@
   color: #B9D153;
   font-size: 20px;
   font-weight: 500;
-  margin-top: 14px;
   margin-right: 10px;
+  margin-top: 14px;
 }
 
 .exit:hover{
@@ -43,10 +48,10 @@
 
 .input-border{
   border: 1px solid #C4C4C4;
-  width: 100%;
-  width: 622px;
-  margin-bottom: 15px;
   height: 24px;
+  margin-bottom: 15px;
+  width: 622px;
+  width: 100%;
 }
 
 .textarea{

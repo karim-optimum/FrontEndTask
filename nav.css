@@ -8,6 +8,7 @@ nav{
   height: 72px;
   gap: 74px;
   position: relative;
+  font-weight: 500;
 }
 
 nav a{
