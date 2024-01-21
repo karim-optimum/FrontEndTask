@@ -8,9 +8,7 @@
 }
 
 
-.skills-div{
-  width: 500px;
-}
+
 .pic-info-empty{
   width: 400px;
   height: 380px
@@ -121,7 +119,7 @@
   .profile{
     justify-content: center;
     border: none;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
   }
 
   .specifications{
@@ -162,12 +160,20 @@
     flex-direction: column;
   }
 
+  .email, .phone{
+    margin-top: 10px;
+  }
+
   .profile-icons{
   position: absolute;
   right: -130px;
   bottom: -12px;
   margin-bottom: 468px;
   margin-right: 132px;
+}
+
+.value{
+  margin-bottom: 20px;
 }
   
 }

@@ -33,7 +33,7 @@
   color: #fff;
   flex-direction: column;
   height: 258px;
-  width: 404px;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -88,9 +88,10 @@
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   font-weight: 600;
-  height: 19.94px;
+  /* height: 19.94px; */
   justify-content: center;
-  width: 42.6px;
+  width: 2rem;
+  /* width: 42.6px; */
 }
 
 .location{
@@ -146,4 +147,29 @@
   font-weight: 600;
 }
 
+.view-listings{
+  max-width: 115px;
+
+}
+
 /* ----------------- end of desktop ----------------- */
+
+
+/* ----------------- start of media query ----------------- */
+@media (max-width: 428px) {
+  .cards{
+    justify-content: center;
+  }
+
+  .card{
+    height: 407px;
+    width: 323px;
+    padding: 10px;
+  }
+
+  .image{
+    width: 100%;
+  }
+
+}
+/* ----------------- end of media query ----------------- */
