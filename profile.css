@@ -8,8 +8,6 @@
   /* flex-basis: 34%; */
 }
 
-
-
 .pic-info-empty{
   width: 100%;
   height: 380px
@@ -22,11 +20,10 @@
 .container{
   width: 80%;
   margin: 0 auto;
-  gap: 82px;
   flex-basis: 88%;
       /* gap: 5%; */
-    /* margin-inline-end: 0; */
-    /* margin-inline-start: 10%; */
+    margin-inline-end: 0;
+    margin-inline-start: 10%;
 }
 
 .user-information{
@@ -39,6 +36,7 @@
 .connection{
   justify-content: space-between;
   margin-top: 10px;
+  width: 414px;
 }
 
 .jacob{
