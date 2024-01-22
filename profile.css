@@ -97,145 +97,154 @@
     }
   }
 
-      @media (min-width: 985px) {
-    .connection{
-      margin-top: 430px;
-    }
+    @media (min-width: 985px) {
+      .connection{
+        margin-top: 430px;
+      }
   }
-  @media (max-width: 1038px) 
-  {
-    .pic-info{
-      /* width: 100%; */
-      margin: 0 auto;
-    }
-    .container{
-      flex-wrap: wrap;
-    }
+    @media (max-width: 1038px) 
+    {
+      .pic-info{
+        margin: 0 auto;
+      }
 
-    .user-information{
-      margin-left: 10px;
-    }
+      .container{
+        flex-wrap: wrap;
+      }
 
-    .specifications{
-      margin: 0 auto;
-    }
+      .user-information{
+        margin-left: 10px;
+      }
 
-    .pic-info-empty{
-      display: none;
-    }
+      .specifications{
+        margin: 0 auto;
+      }
 
-    .info {
-    text-align: center;
+      .pic-info-empty{
+        display: none;
+      }
+
+      .info {
+      text-align: center;
+      }
     }
-  }
 
 
 
     @media (max-width: 985px) {
-      .name-search{
-        /* margin-top: 400px; */
+      .connection {
+        align-items: center;
       }
 
-      .connection {
-      align-items: center;
+      .user-information{
+        margin-top: 10px;
+      }
     }
 
-    .user-information{
-      margin-top: 10px;
-    }
-  }
+    @media (max-width: 500px) 
+    {
+      .profile{
+        justify-content: center;
+        border: none;
+        padding-bottom: 10px;
+      }
 
-  @media (max-width: 500px) 
-  {
-    .profile{
-      justify-content: center;
-      border: none;
-      padding-bottom: 10px;
-    }
+      .container{
+        flex-direction: column;
+        width:85%;
+        margin: 0 auto;
+      }
 
-    .container{
-      flex-direction: column;
-      width:85%;
-      margin: 0 auto;
-    }
+      .user-information{
+        flex-direction: column;
+        gap:20px;
+        margin-top: 10px;
+        margin-left: 30px;
+      }
 
-    .user-information{
-      flex-direction: column;
-      gap:20px;
-      margin-top: 10px;
-      margin-left: 30px;
-    }
+      .man-pic{
+        position: absolute;
+        width: 340px;
+        left: 14px;
+        top: -50px;
+      }
 
-    .man-pic{
-      position: absolute;
-      width: 340px;
-      left: -165px;
-      top: -50px;
-    }
+      .name-pic{
+        margin-top: 310px;
+      }
 
-    .name-pic{
-      margin-top: 310px;
-    }
+      .btn{
+        height: 42px;
+        width: 149px;
+        padding: 0;
+        font-weight: 700;
+      }
 
-    .btn{
-      height: 42px;
-      width: 149px;
-      padding: 0;
-      font-weight: 600;
-    }
+      .search-icon{
+        margin-bottom: 35px;
+      }
 
-    .search-icon{
-      margin-bottom: 35px;
-    }
+      .specifications{
+        justify-content: center;
+      }
 
-    .specifications{
-      justify-content: center;
-    }
+      .social-media-profile{
+        height: 42px;
+        width: 42px;
+      }
 
-    .social-media-profile{
-      height: 42px;
-      width: 42px;
-    }
+      .phone-icon{
+        display: inline;
+        width: 48px;
+        height: 48px;
+        margin: 0 5px 0 0;
+      }
 
-    .phone-icon{
-      display: inline;
-      width: 48px;
-      height: 48px;
-      margin: 0 5px 0 0;
-    }
+      .skills{
+        flex-direction: column;
+      }
 
-    .skills{
-      flex-direction: column;
-    }
+      .email, .phone{
+        margin-top: 10px;
+      }
 
-    .email, .phone{
-      margin-top: 10px;
-    }
+      .profile-icons{
+        position: absolute;
+        right: -130px;
+        bottom: -12px;
+        margin-bottom: 480px;
+        margin-right: 155px;
+      }
 
-    .profile-icons{
-      position: absolute;
-      right: -130px;
-      bottom: -12px;
-      margin-bottom: 480px;
-      margin-right: 155px;
-    }
+      .value{
+        margin-bottom: 20px;
+      }
 
-    .value{
-      margin-bottom: 20px;
-    }
+      .specifications{
+        align-items: center;
+        margin-top: 40px;
+        margin-right: 70px;
+        width: 90%;
+      }
 
-    .specifications{
-      /* justify-content: center; */
-      /* align-items: center; */
-      margin-top: 40px;
-      margin-right: 70px;
-      width: 90%;
-    }
+      .jacob{
+        margin-bottom: 10px;
+      }
 
-    .jacob{
-      margin-bottom: 10px;
+      .connection{
+        position: relative;
+        flex-direction: column;
+        z-index: 3;
+        margin-top: 226px;
+      }
+
+      .user-information{
+        margin-left: 20px;
+      }
+      .about-me{
+        width: 90%;
+      }
     }
-  }
 
 
 
