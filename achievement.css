@@ -72,8 +72,17 @@
 
 /* ----------------- start of media query ----------------- */
 
+@media (max-width: 1220px) {
+  .achievement-text{
+    font-size: 14px;
+  }
+}
 
-@media (max-width: 428px) {
+@media (max-width: 645px) {
+  
+}
+
+@media (max-width: 645px) {
   
   .achievments-section{
     width: 80%;
@@ -86,7 +95,9 @@
   }
 
   .stats{
+    /* width: 80%; */
     margin-top: 30px;
+    /* gap: 20px; */
   }
 
   .achievments{

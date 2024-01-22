@@ -95,7 +95,7 @@ input{
 
 /* ----------------- start of media query ----------------- */
 
-@media (max-width: 428px) {
+@media (max-width: 1080px) {
   
   footer{
     font-size: 12px;
@@ -109,9 +109,11 @@ input{
   }
 
   .social-media{
-    text-align: left;
+    /* width: 20%; */
+
+    /* left: 300px; */
     /* margin-left: 20px; */
-    margin: 0 0 10px 20px;
+    /* margin: 0 200px 10px 20px; */
   }
   
   .social-media .icon{

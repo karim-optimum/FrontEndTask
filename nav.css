@@ -50,8 +50,6 @@ nav a:hover{
 
 .notify{
   align-items: center;
-  border-left: 1px solid #CFCFCF;
-  border-right: 0.1px solid #CFCFCF;
   display: flex;
   height: 72px;
   justify-content: center;
@@ -80,9 +78,41 @@ nav a:hover{
   nav{
     font-size: 12px;
   }
+  .user-logo{
+    display: none;
+  }
+
+
+  .notify{
+    border: none;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1220px) {
+  nav{
+    font-size: 12px;
+    gap: 30px;
+  }
+  .user-logo{
+    display: none;
+  }
+
+}
+
+@media (max-width: 1140px) {
+.first{
+  margin-left: 100px;
+}
+}
+
+@media (max-width: 1030px) {
+.first{
+  margin-left: 50px;
+}
+
+}
+
+@media (max-width: 984px) {
   .navbar-desktop{
     display: none !important;
   }
