@@ -23,9 +23,7 @@
 .container{
   width: 87%;
   margin: 0 auto;
-  /* flex-basis: 89%; */
-  /* gap: 5%; */
-  /* margin-inline-end: 0; */
+
 }
 
 .user-information{
@@ -93,6 +91,17 @@
 
 /* ----------------- start of media query ----------------- */
 
+    @media (min-width: 500px) {
+    .connection{
+      margin-top: 410px;
+    }
+  }
+
+      @media (min-width: 985px) {
+    .connection{
+      margin-top: 430px;
+    }
+  }
   @media (max-width: 1038px) 
   {
     .pic-info{
@@ -120,13 +129,14 @@
     }
   }
 
+
+
     @media (max-width: 985px) {
       .name-search{
         /* margin-top: 400px; */
       }
 
       .connection {
-      margin-top: 430px;
       align-items: center;
     }
 
@@ -226,5 +236,7 @@
       margin-bottom: 10px;
     }
   }
+
+
 
 /* ----------------- end of media query ----------------- */
