@@ -33,7 +33,7 @@
 
 .achievments{
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
   justify-content: center;
 }
 
@@ -47,7 +47,7 @@
   margin-top: 50px;
   padding: 45px;
   width: 12%;
-  width: 285px;
+  width: 270px;
 }
 
 .achievment img{
@@ -111,8 +111,8 @@
   }
   
   .achievment{
-    max-height: 168px;
-    max-width: 190px;
+    max-height: 188px;
+    max-width: 290px;
     font-size: 12px;
     margin-top: 20px;
   }
