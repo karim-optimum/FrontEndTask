@@ -28,6 +28,10 @@
   gap: 25px;
 }
 
+.no-name{
+  margin-top: 25px;
+}
+
 .image{
   background-repeat: no-repeat;
   color: #fff;
@@ -148,8 +152,9 @@
 }
 
 .view-listings{
-  max-width: 115px;
-
+  width: 100px;
+  font-size: 16px;
+  
 }
 
 /* ----------------- end of desktop ----------------- */
