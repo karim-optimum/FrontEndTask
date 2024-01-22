@@ -25,7 +25,7 @@
   height: 494px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  /* padding: 10px; */
 }
 
 .no-name{
@@ -125,6 +125,8 @@
 .card-information{
   flex-direction: column;
   gap: 24px;
+  margin: 0 auto;
+  width: 95%;
 }
 
 .accomodations{
@@ -135,11 +137,6 @@
 .accomodation{
   align-items: center;
   gap: 10px;
-}
-
-.card-information{
-  margin: 0 auto;
-  width: 95%;
 }
 
 .information{
@@ -154,27 +151,36 @@
 .view-listings{
   width: 100px;
   font-size: 16px;
-  
 }
 
 /* ----------------- end of desktop ----------------- */
 
 
 /* ----------------- start of media query ----------------- */
+@media (max-width: 1150px) {
+  .card-2,.card-3{
+    display: none;
+  }
+  .icons{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards{
+    justify-content: center;
+  }
+}
+
 @media (max-width: 428px) {
   .cards{
     justify-content: center;
   }
 
-  .card{
-    /* height: 407px; */
-    /* width: 323px; */
-    /* padding: 10px; */
+  .card-2, .card-3{
+      display: none;
   }
 
-  .price-tag{
-  /* margin-top: 100px; */
-}
+
 
   .view-listings{
     font-size: 12px;
