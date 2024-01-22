@@ -34,6 +34,7 @@
 .achievments{
   flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
 }
 
 .achievment{
@@ -41,12 +42,12 @@
   border: 1px solid #EBEBEB;
   border-radius: 5px;
   flex-direction: column;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   justify-content: center;
   margin-top: 50px;
   padding: 45px;
   width: 12%;
-  max-width: 285px;
+  width: 285px;
 }
 
 .achievment img{
@@ -74,15 +75,17 @@
 
 @media (max-width: 1220px) {
   .achievement-text{
-    font-size: 14px;
+    /* font-size: 14px; */
+  }
+    .achievment img{
+    height: 43px;
+    width: 30px;
   }
 }
 
-@media (max-width: 645px) {
-  
-}
 
-@media (max-width: 645px) {
+
+@media (max-width: 755px) {
   
   .achievments-section{
     width: 80%;
@@ -97,18 +100,19 @@
   .stats{
     /* width: 80%; */
     margin-top: 30px;
+    margin: 30px auto;
     /* gap: 20px; */
   }
 
   .achievments{
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     gap: 0 20px;
+    margin: 0 auto;
   }
   
   .achievment{
-    max-height: 128px;
-    max-width: 130px;
+    max-height: 168px;
+    max-width: 190px;
     font-size: 12px;
     margin-top: 20px;
   }
@@ -120,6 +124,21 @@
 
   .achievement-text{
     font-size: 11px;
+  }
+}
+
+@media (max-width: 500px) {
+  .achievment{
+    font-size: 11px;
+    width: 189px;
+  }
+}
+
+  @media (max-width: 500px) {
+  .achievment{
+    font-size: 11px;
+    width: 161px;
+    padding: 5px;
   }
 }
 
