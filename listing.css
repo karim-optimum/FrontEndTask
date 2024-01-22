@@ -162,9 +162,17 @@
   }
 
   .card{
-    height: 407px;
-    width: 323px;
-    padding: 10px;
+    /* height: 407px; */
+    /* width: 323px; */
+    /* padding: 10px; */
+  }
+
+  .price-tag{
+  /* margin-top: 100px; */
+}
+
+  .view-listings{
+    font-size: 12px;
   }
 
   .image{

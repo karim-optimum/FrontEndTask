@@ -53,3 +53,25 @@ document.addEventListener('click', function(event) {
     closePopup();
   }
 });
+
+
+
+let currentIndex = 0;
+const cards = document.querySelectorAll('.card');
+
+document.getElementById('prev').addEventListener('click', () => {
+ if(currentIndex > 0){
+    cards[currentIndex].style.display = 'none';
+    currentIndex--;
+    cards[currentIndex].style.display = 'block';
+ }
+});
+
+
+document.getElementById('next').addEventListener('click', () => {
+ if(currentIndex < cards.length - 1){
+    cards[currentIndex].style.display = 'none';
+    currentIndex++;
+    cards[currentIndex].style.display = 'block';
+ }
+});
