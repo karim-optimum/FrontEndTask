@@ -114,35 +114,26 @@
     .pic-info-empty{
       display: none;
     }
+
+    .info {
+    text-align: center;
+  }
   }
 
   @media (max-width: 985px) {
-    .jacob{
-      margin-top: 400px;
+    .name-search{
+      /* margin-top: 400px; */
     }
 
-    .connection{  
-      align-items: center;
-      bottom:-425px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      position: absolute;
-      width: 100%;
-      margin: 0 auto;
-    }
-
-    .man-pic{
-      position: absolute;
-      left: -200px;
-      top: -50px;
-    }
-    .social-media-profile{
-      margin-top: -5px;
-    }
+    .connection {
+    margin-top: 435px;
+    align-items: center;
   }
 
-@media (max-width: 428px) 
+ 
+  }
+
+@media (max-width: 500px) 
 {
   .profile{
     justify-content: center;
@@ -170,20 +161,11 @@
     top: -50px;
   }
 
-  .jacob{
+  .name-pic{
     margin-top: 310px;
   }
 
-  .connection{
-    align-items: center;
-    bottom:-345px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    margin: 0 auto;
-  }
+ 
 
   .btn{
     height: 42px;
@@ -192,9 +174,7 @@
     font-weight: 600;
   }
 
-  .info{
-    text-align: center;
-  }
+ 
 
   .search-icon{
     margin-bottom: 35px;
