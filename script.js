@@ -14,8 +14,26 @@ let url = '';
 
 shareButtons.forEach((shareButton) => {
   shareButton.onclick = () => {
-    url = window.location.href;
-    console.log(url);
+    const href = window.location.href;
+    navigator.clipboard.writeText(href);
+    
+    const messageDiv = document.createElement('div');
+    messageDiv.textContent = 'Copied to clipboard';
+    messageDiv.style.position = 'fixed';
+    messageDiv.style.top = '50%';
+    messageDiv.style.left = '50%';
+    messageDiv.style.transform = 'translate(-50%, -50%)';
+    messageDiv.style.background = 'rgba(0, 0, 0, 0.7)';
+    messageDiv.style.color = '#fff';
+    messageDiv.style.padding = '10px 20px';
+    messageDiv.style.borderRadius = '5px';
+    messageDiv.style.zIndex = '9999';
+    
+    document.body.appendChild(messageDiv);
+    
+    setTimeout(() => {
+      document.body.removeChild(messageDiv);
+    }, 3000);
   };
 });
 
@@ -50,25 +68,13 @@ function closePopup() {
 };
 
 document.onclick =  (event) => {
-  if (formPopUp.contains(event.target)) {
+  if (event.target == formPopUp) {
     closePopup();
 }};
 
 let currentIndex = 0;
 
-function updateButtonState() {
- if (window.matchMedia("(min-width: 1100px)").matches) {
-    // If viewport is wider than 1200px, disable the buttons
-    prevButton.disabled = true;
-    nextButton.disabled = true;
- } else {
-    // Otherwise, enable the buttons
-    prevButton.disabled = false;
-    nextButton.disabled = false;
- }
-};
 
-updateButtonState();
 
 prevButton.onclick = () => {
  if(currentIndex > 0){

@@ -3,6 +3,7 @@
 footer{
   border-top: 5px solid #fff;
   padding-top: 35px;
+  background-color: #F5F5F5;
 }
 
 .social-media{
@@ -108,11 +109,6 @@ input{
     margin: 0 auto;
   }
   
-  .social-media .icon{
-    height: 32px;
-    width: 30px;
-  }
-
   .footer-title{
     font-size: 18px;
     padding-bottom: 10px;
@@ -123,9 +119,12 @@ input{
     margin: 0;
   }
 
-  .newsletter, .footer-contact-section, .footer-company-section{
+  .newsletter, 
+  .footer-contact-section, 
+  .footer-company-section {
     margin-top: 15px;
   }
+
   .subscribe-container{
     font-size: 11px;
     margin-top: 5px;
@@ -142,6 +141,12 @@ input{
   }
   .footer-container{
     flex-direction: column;
+  }
+
+  .social-media{
+    margin: 0 auto;
+    text-align: start;
+    width: 90%;
   }
 }
 

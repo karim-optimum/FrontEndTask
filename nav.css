@@ -2,6 +2,7 @@
   .header-mobile{
     display: none;
   }
+
 nav{
   align-items: center;
   background-color: black;
@@ -11,6 +12,11 @@ nav{
   gap: 74px;
   position: relative;
   font-weight: 500;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
 }
 
 nav a{
@@ -159,6 +165,9 @@ nav a:hover{
     width: 100%;
   }
 
+  .nav-link{
+    font-size: 20px;
+  }
   .navbar{
     flex-direction: row;
     padding: 0 20px 0 55px;
@@ -169,15 +178,16 @@ nav a:hover{
     font-size: 36px;
   }
 
-  .bar{
-    background-color: #fff;
+
+  .bar {
     display: block;
-    height: 3px;
-    margin: 5px auto;
-    width: 25px;
+    width: 1.5625rem;
+    height: .1875rem;
+    margin: .3125rem auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-}
+    background-color: #FFFFFF;
+  }
 
   .hamburger{
     display: block;
@@ -187,14 +197,12 @@ nav a:hover{
     opacity: 0;
   }
 
-  .hamburger.active .bar:nth-child(1){
-    transform: translateY(.5rem) rotate(45deg);
-  }
-
-    .hamburger.active .bar:nth-child(3){
-    transform: translateY(-0.5rem) rotate(-45deg);
-  }
-
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(.5rem) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-0.5rem) rotate(-45deg);
+    }
   .nav-menu{
     background-color: #262626;
     flex-direction: column;

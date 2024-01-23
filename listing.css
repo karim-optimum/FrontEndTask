@@ -117,7 +117,13 @@
   position: absolute;
   top: 104%;
   transform: translate(-50%, -50%);
-  z-index: 999;
+  z-index: 1;
+}
+
+.no-name{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -13px !important;
 }
 
 .card-information{
@@ -147,7 +153,7 @@
 }
 
 .view-listings{
-  width: 6.25rem;
+  width: 100px;
   font-size: 16px;
 }
 
@@ -156,6 +162,11 @@
 
 /* ----------------- start of media query ----------------- */
 @media (max-width: 1150px) {
+
+  .listings-section{
+    margin-top: 30px;
+  }
+
   .card-2,.card-3{
     display: none;
   }
@@ -167,6 +178,61 @@
   .cards{
     justify-content: center;
   }
+
+  .listing-title-div{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+  }
+
+  .listing-title{
+    margin-left: 0;
+    margin-bottom: 1.8rem;
+    margin: 20px 0 1.8rem 0;
+  }
+}
+
+@media (max-width:501px) {
+  .listings-section{
+
+  }
+
+  .card{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.9504px 1.9504px 2.6px;
+  width: 323px;
+  height: 437px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding-bottom: 10px;
+}
+
+.image{
+  height: 250px;
+}
+
+.btn{
+  width: 140px !important;
+}
+
+.view-listings{
+  font-size: 12px;
+  height: 29.8px;
+  width: 85px;
+  padding-bottom: 10px;
+}
+
+.no-name{
+  margin-top: 13px;
+}
+
+.cards{
+  gap: 15px;
+}
+
+.card-information{
+  gap: 15px;
+}
+
 }
 
 @media (max-width: 428px) {
@@ -177,8 +243,6 @@
   .card-2, .card-3{
       display: none;
   }
-
-
 
   .view-listings{
     font-size: 12px;
