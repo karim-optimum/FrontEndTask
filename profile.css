@@ -106,11 +106,13 @@
     }
   }
 
-    /* @media (min-width: 985px) {
-      .connection{
-        margin-top: 410px;
-      }
-  } */
+      @media (min-width: 761px) {
+    .connection{
+      margin-top: 425px;
+    }
+  }
+
+
     @media (max-width: 1038px) 
     {
       .pic-info{
@@ -139,9 +141,7 @@
     }
 
     @media (max-width: 985px) {
-      .connection {
-        align-items: center;
-      }
+
 
       .user-information{
         margin-top: 10px;
