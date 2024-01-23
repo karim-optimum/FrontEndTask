@@ -63,6 +63,14 @@ nav a:hover{
   justify-content: center;
 }
 
+.bell{
+  border-left: 0.5px solid #C2C2C2;
+  border-right: 0.5px solid #C2C2C2;
+  height: 72px;
+  width: 50px;
+  padding: 18px 10px;
+}
+
 /* ----------------- end of desktop ----------------- */
 
 
@@ -111,8 +119,37 @@ nav a:hover{
 }
 
 }
+@media (max-width: 943px) {
+  .bell{
+    border: none;
+    padding: 0;
+    height: 30px;
+    width: 30px; 
+  }
+}
 
-@media (max-width: 984px) {
+@media (max-width: 921px) {
+  .user-manage p {
+    display: none;
+  }
+}
+
+@media (max-width: 843px) {
+  nav{
+    font-size: 10px;
+  }
+  .bell{
+    width: 20px;
+    height: 20px;
+  }
+
+  .user-manage img{
+    width: 8px;
+    height: 9px;
+  }
+}
+
+@media (max-width: 760px) {
   .navbar-desktop{
     display: none !important;
   }
@@ -151,11 +188,11 @@ nav a:hover{
   }
 
   .hamburger.active .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(.5rem) rotate(45deg);
   }
 
     .hamburger.active .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-0.5rem) rotate(-45deg);
   }
 
   .nav-menu{

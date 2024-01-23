@@ -23,9 +23,8 @@
 .points, .badges{
   align-items: center;
   border-radius: 30px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.9504px 1.9504px 2.6px;
   font-weight: 600;
-  /* height: 46px; */
   justify-content: space-evenly;
   padding: 5px;
   width: 163px;
@@ -42,7 +41,7 @@
 
 .achievment{
   align-items: center;
-  border: 1px solid #EBEBEB;
+  border: .0625rem solid #EBEBEB;
   border-radius: 5px;
   flex-direction: column;
   justify-content: center;
@@ -80,9 +79,6 @@
     font-size: 14px;
   }
 
-  /* .achievment{
-    width: 200px;
-  } */
   .container-1-achievement,.container-2-achievement{
     flex-direction: column;
   }
@@ -169,10 +165,24 @@
   }
 }
 
-
-  @media (max-width: 427px) {
+@media (max-width: 427px) {
     .achievments{
     flex-wrap: wrap;
+  }
+
+}
+
+@media (max-width: 413px) {
+
+  .section-header{
+    margin-bottom: 5px;
+  }
+
+  .stats{
+    flex-direction: column;
+  }
+  .container-1-achievement,.container-2-achievement{
+    gap: 0;
   }
 
 }

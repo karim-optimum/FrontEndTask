@@ -20,12 +20,11 @@
 }
 
 .card{
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.9504px 1.9504px 2.6px;
   width: 392px;
   height: 494px;
   display: flex;
   flex-direction: column;
-  /* padding: 10px; */
 }
 
 .no-name{
@@ -43,7 +42,7 @@
 
 .sale-tag{
   width: 58px;
-  height: 20.85px;
+  height: 20.8496px;
   padding: 3px;
   text-align: center;
   background-color: #B9D153;
@@ -92,10 +91,9 @@
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   font-weight: 600;
-  /* height: 19.94px; */
   justify-content: center;
-  width: 2rem;
-  /* width: 42.6px; */
+  width: 32px;
+  /* width: 2.6625rem; */
 }
 
 .location{
@@ -149,7 +147,7 @@
 }
 
 .view-listings{
-  width: 100px;
+  width: 6.25rem;
   font-size: 16px;
 }
 
