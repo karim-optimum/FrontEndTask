@@ -166,8 +166,13 @@
 }
 
 @media (max-width: 427px) {
-    .achievments{
-    flex-wrap: wrap;
+  .achievment{
+    width: 150px;
+  }
+
+  .achievment img{
+    height: 80px;
+    width: 100px;
   }
 
 }
@@ -181,12 +186,18 @@
   .stats{
     flex-direction: column;
   }
+  
   .container-1-achievement,.container-2-achievement{
     gap: 0;
   }
 
 }
 
+@media (max-width: 370px){
+  .achievments{
+    flex-wrap: wrap;
+  }
+}
 
 
 /* ----------------- end of media query ----------------- */
