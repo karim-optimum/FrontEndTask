@@ -42,6 +42,7 @@
   justify-content: space-between;
   margin-top: 50px;
   width: 414px;
+  align-items: center;
 }
 
 .jacob{
@@ -100,6 +101,8 @@
 
 /* ----------------- start of media query ----------------- */
 
+
+/* ----------------- start of media query Min Width----------------- */
   @media (min-width: 500px) {
     .connection{
       margin-top: 410px;
@@ -111,6 +114,8 @@
       margin-top: 425px;
     }
   }
+/* ----------------- end of media query Min Width----------------- */
+
 
   @media (max-width: 1038px) {
     .pic-info{
@@ -145,14 +150,8 @@
   }
 
   @media (max-width: 808px) {
-    .social-media-profile{
-      margin-top: -16px;
-    }
-  }
-
-  @media (max-width: 808px) {
     .connection{
-      margin-top: 425px;
+      margin-top: 410px;
     }
   }
 
@@ -178,11 +177,9 @@
 
     .man-pic{
       position: absolute;
-      width: 340px;
-      width: 80%;
+      /* width: 340px; */
+      width: 90%;
       margin: auto;
-      /* left: 14px;
-      top: -50px; */
     }
 
     .name-pic{
@@ -201,8 +198,8 @@
     }
 
     .social-media-profile{
-      height: 42px;
-      width: 42px;
+      height: 32px;
+      width: 32px;
     }
 
     .phone-icon{
@@ -249,10 +246,14 @@
       z-index: 3;
       margin: 226px auto 0 auto ;
       align-items: center;
+      width: 80%;
+    }
+
+    .pic-info{
+      width: 264px;
     }
 
     .user-information{
-      /* margin-left: 20px; */
       margin: auto;
     }
 
@@ -262,6 +263,10 @@
 
     .search-icon{
       margin: 10px 0 0 10px;
+    }
+
+    .social-media-profile{
+      width: 80%;
     }
   }
 
