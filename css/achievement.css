@@ -31,11 +31,15 @@
 }
 
 .achievments{
-  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
+  margin:  auto;
   gap: 0 20px;
+  
 }
 
 .achievment{
+  flex-basis: 22%; 
   align-items: center;
   border: .0625rem solid #EBEBEB;
   border-radius: 5px;
@@ -44,7 +48,6 @@
   margin-top: 20px;
   padding: 45px;
   width: 100%;
-  width: 270px;
   gap: 0 20px;
 }
 
@@ -57,9 +60,6 @@
   text-align: center;
 }
 
-.container-1-achievement,.container-2-achievement{
-  gap: 20px;
-}
 
 .offer{
   font-weight: 600;
@@ -80,13 +80,29 @@
     font-size: 14px;
   }
 
-  .container-1-achievement,.container-2-achievement{
-    flex-direction: column;
-    gap: 0;
+}
+
+@media (max-width: 1160px) {
+  .achievments{
+    width: 100%;
+    gap: 0 20px;
+    margin: 0 auto;
+  }
+  
+  .achievment{
+  flex-basis: 48%; 
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .achievment img{
+    height: 80px;
+    width: 100px;
   }
 }
 
-@media (max-width: 940px) {
+/* @media (max-width: 940px) {
   .achievments-section{
     width: 80%;
     margin: 0 auto;
@@ -112,7 +128,7 @@
   .achievement-text{
     font-size: 11px;
   }
-}
+} */
 
 @media (max-width: 840px) {
   
@@ -140,8 +156,6 @@
   }
   
   .achievment{
-    max-height: 188px;
-    max-width: 290px;
     font-size: 12px;
     margin-top: 20px;
     padding: 20px;
@@ -157,15 +171,26 @@
   }
 }
 
-@media (max-width: 564px) {
-
-  .achievment{
-    width: 200px;
+@media (max-width: 788px) {
+  .achievments {
+    flex-wrap: wrap;
+    /* display:  */
+    /* grid-gap: 10px;  */
+    /* gap: 0; */
   }
+  /* .achievment {
+   flex-basis: 10%; 
+  } */
 
-  .achievment img{
+  .achievment img {
     height: 80px;
     width: 100px;
+  }
+}
+
+@media (max-width: 627px) {
+  .achievment{
+    flex-basis: 47%;
   }
 }
 
@@ -190,15 +215,11 @@
   .stats{
     flex-direction: column;
   }
-  
-  .container-1-achievement,.container-2-achievement{
-    gap: 0;
-  }
-
 }
 
-@media (max-width: 370px){
+@media (max-width: 417px){
   .achievments{
+    justify-content: center;
     flex-wrap: wrap;
   }
 }

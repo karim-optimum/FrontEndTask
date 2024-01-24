@@ -58,16 +58,16 @@
 }
 
 .image-1 {
-  background-image: url("images/first-house.png");
+  background-image: url("../images/first-house.png");
   position: relative;
 }
 
 .image-2 {
-  background-image: url("images/second-house.png");
+  background-image: url("../images/second-house.png");
 }
 
 .image-3 {
-  background-image: url("images/third-house.png");
+  background-image: url("../images/third-house.png");
 }
 
 .accomodation span{

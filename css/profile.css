@@ -239,18 +239,19 @@
     .jacob{
       margin-bottom: 10px;
     }
-
+    
     .connection{
       position: relative;
       flex-direction: column;
       z-index: 3;
-      margin: 226px auto 0 auto ;
+      margin: 170px auto 0 auto ;
       align-items: center;
       width: 80%;
     }
 
     .pic-info{
-      width: 264px;
+      width: 80%;
+      margin: 0 auto;
     }
 
     .user-information{
@@ -267,6 +268,11 @@
 
     .social-media-profile{
       width: 80%;
+    }
+
+    .phone-icon{
+      height: 36.3px;
+      width: 36.3px;
     }
   }
 
