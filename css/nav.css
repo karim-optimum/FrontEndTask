@@ -171,6 +171,9 @@ nav a:hover{
   .header-mobile{
     display: block;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 3;
   }
 
   .nav-link{
@@ -224,7 +227,7 @@ nav a:hover{
     top: 70px;
     transition: 0.3s;
     width: 100%;
-    z-index: 3;
+    z-index: 5;
   }
 
   a{

@@ -149,9 +149,13 @@
     }
   }
 
-  @media (max-width: 808px) {
+  @media (max-width: 809px) {
     .connection{
       margin-top: 410px;
+    }
+
+    .user-information{
+      margin-top: 19px;
     }
   }
 
