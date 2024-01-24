@@ -125,22 +125,30 @@ nav a:hover{
 }
 
 }
-@media (max-width: 943px) {
+
+@media (max-width: 973px) {
+  .notification{
+    height: 72px;
+    width: 70px;
+  }
+}
+
+/* @media (max-width: 960px) {
   .bell{
     border: none;
     padding: 0;
     height: 30px;
     width: 30px; 
   }
-}
+} */
 
-@media (max-width: 921px) {
+@media (max-width: 960px) {
   .user-manage p {
     display: none;
   }
 }
 
-@media (max-width: 843px) {
+@media (max-width: 877px) {
   nav{
     font-size: 10px;
   }
@@ -155,7 +163,7 @@ nav a:hover{
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 809px) {
   .navbar-desktop{
     display: none !important;
   }
