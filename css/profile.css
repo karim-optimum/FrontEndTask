@@ -247,7 +247,7 @@
     .connection{
       position: relative;
       flex-direction: column;
-      z-index: 3;
+      z-index: 1;
       margin: 170px auto 0 auto ;
       align-items: center;
       width: 80%;
