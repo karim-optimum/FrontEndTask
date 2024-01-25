@@ -9,14 +9,14 @@ nav{
   color: #fff;
   font-size: 14px;
   height: 72px;
-  gap: 74px;
+  padding: 0 39px 0 216px;
   position: relative;
   font-weight: 500;
   position: sticky;
   top: 0;
   left: 0;
   z-index: 2;
-  width: 100%;
+  /* width: 100%; */
 }
 
 nav a{
@@ -28,13 +28,16 @@ nav a:hover{
   color: #B9D153;
 }
 
+.nav-container{
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 74px;
+
+}
+
 .hamburger{
   display: none;
   cursor: pointer;
-}
-
-.first{
-  margin-left: 216px;
 }
 
 .pic-info{
@@ -48,10 +51,9 @@ nav a:hover{
 .fourth{
   align-items: center;
   gap: 20px;
-  justify-content: space-between;
-  margin-right: 39px;
-  position: absolute;
-  right: 0;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 60px;
 }
 
 .notify{
@@ -81,8 +83,25 @@ nav a:hover{
 
 
 /* ----------------- start of media query ----------------- */
+@media (max-width: 1445px) {
+  .fourth{
+    margin-right: 50px;
+  }
+}
 
-@media (max-width: 1342px) {
+@media (max-width: 1394px) {
+  .fourth{
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 1369px) {
+  .fourth{
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1344px) {
   nav{
     font-size: 12px;
   }
@@ -102,53 +121,41 @@ nav a:hover{
   }
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 1235px) {
   nav{
     font-size: 12px;
-    gap: 30px;
+    /* gap: 30px; */
   }
   .user-logo{
     display: none;
   }
+  nav{
+    padding-left: 100px;
+  }
 
 }
 
-@media (max-width: 1140px) {
-.first{
-  margin-left: 100px;
-}
-}
-
-@media (max-width: 1030px) {
-.first{
-  margin-left: 50px;
+@media (max-width: 1119px) {
+nav{
+  padding-left: 50px;
 }
 
 }
 
-@media (max-width: 973px) {
+@media (max-width: 1069px) {
   .notification{
     height: 72px;
     width: 70px;
   }
 }
 
-/* @media (max-width: 960px) {
-  .bell{
-    border: none;
-    padding: 0;
-    height: 30px;
-    width: 30px; 
-  }
-} */
-
-@media (max-width: 960px) {
+@media (max-width: 1055px) {
   .user-manage p {
     display: none;
   }
 }
 
-@media (max-width: 877px) {
+@media (max-width: 970px) {
   nav{
     font-size: 10px;
   }
@@ -163,7 +170,13 @@ nav a:hover{
   }
 }
 
-@media (max-width: 809px) {
+@media (max-width: 904px) {
+  .nav-container{
+    gap: 30px;
+  }
+}
+
+@media (max-width: 815px) {
   .navbar-desktop{
     display: none !important;
   }
@@ -181,8 +194,8 @@ nav a:hover{
   }
 
   .navbar{
-    flex-direction: row;
-    padding: 0 20px 0 55px;
+    /* flex-direction: row; */
+    /* padding: 0 20px 0 55px; */
     height: 72px;
   }
 
@@ -202,6 +215,7 @@ nav a:hover{
 
   .hamburger{
     display: block;
+    margin-right: 30px;
   }
 
   .hamburger.active .bar:nth-child(2){

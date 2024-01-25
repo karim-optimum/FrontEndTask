@@ -77,17 +77,18 @@ let currentIndex = 0;
 
 
 prevButton.onclick = () => {
- if(currentIndex > 0){
-    cards[currentIndex].style.display = 'none';
-    currentIndex--;
-    cards[currentIndex].style.display = 'block';
- }
+    if (window.innerWidth <= 1150) {
+        cards[currentIndex].style.display = 'none';
+        currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+        cards[currentIndex].style.display = 'block';
+    }
 };
 
 nextButton.onclick = () => {
- if(currentIndex < cards.length - 1){
-    cards[currentIndex].style.display = 'none';
-    currentIndex++;
-    cards[currentIndex].style.display = 'block';
- }
+    if (window.innerWidth <= 1150) {
+        cards[currentIndex].style.display = 'none';
+        currentIndex = (currentIndex + 1) % cards.length;
+        cards[currentIndex].style.display = 'block';
+    }
 };
+

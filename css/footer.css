@@ -91,10 +91,17 @@ input{
   border-radius: 20px;
   padding: 4px;
   font-family: 'Montserrat', sans-serif;
+      border: none;
+    padding: 0.625rem 1.0938rem;
+    border-radius: 2.1875rem;
 }
 
 .logo-footer{
   margin-top: 20px;
+}
+
+.btn-subscribe{
+  padding: 0.625rem 1.2938rem;
 }
 
 /* ----------------- end of desktop ----------------- */
