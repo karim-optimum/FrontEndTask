@@ -1,7 +1,7 @@
 /* ----------------- start of desktop ----------------- */
 
 .profile{
-  background-color: #fff;
+  background-color: var(--white-color);
   border-bottom: 4px solid #C4C4C4;
   margin-bottom: 100px;
   padding-bottom: 80px;
@@ -17,8 +17,8 @@
 }
 
 .pic-info-empty{
-  width: 100%;
   height: 380px;
+  width: 100%;
 }
 
 .phone-icon{
@@ -26,8 +26,8 @@
 }
 
 .container{
-  width: 87%;
   margin: 0 auto;
+  width: 87%;
 
 }
 
@@ -39,10 +39,10 @@
 }
 
 .connection{
+  align-items: center;
   justify-content: space-between;
   margin-top: 50px;
   width: 414px;
-  align-items: center;
 }
 
 .jacob{
@@ -61,9 +61,9 @@
 }
 
 .skills{
+  display: flex;
   justify-content: space-between;
   margin-top: 30px;
-  display: flex;
 }
 
 .about-me{
@@ -84,9 +84,9 @@
 }
 
 .social-media-profile{
-  width: 43px;
   height: 43px;
   margin-right: 8px;
+  width: 43px;
 }
 
 .profile-icons{
@@ -98,8 +98,8 @@
 }
 
 .pic-info{
-        display: flex;
-      justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 /* ----------------- end of desktop ----------------- */
 
@@ -143,7 +143,7 @@
     }
 
     .info {
-    text-align: center;
+      text-align: center;
     }
   }
 
@@ -165,15 +165,15 @@
 
   @media (max-width: 480px) {
     .profile{
-      justify-content: center;
       border: none;
+      justify-content: center;
       padding-bottom: 10px;
     }
 
     .container{
       flex-direction: column;
-      width:85%;
       margin: 0 auto;
+      width:85%;
     }
 
     .user-information{
@@ -183,9 +183,9 @@
     }
 
     .man-pic{
+      margin: auto;
       position: absolute;
       width: 90%;
-      margin: auto;
     }
 
     .name-pic{
@@ -193,10 +193,10 @@
     }
 
     .btn{
-      height: 42px;
-      width: 149px;
-      padding: 0;
       font-weight: 700;
+      height: 42px;
+      padding: 0;
+      width: 149px;
     }
 
     .specifications{
@@ -210,9 +210,9 @@
 
     .phone-icon{
       display: inline;
-      width: 48px;
       height: 48px;
       margin: 0 5px 0 0;
+      width: 48px;
     }
 
     .skills{
@@ -224,11 +224,11 @@
     }
 
     .profile-icons{
-      position: absolute;
-      right: -130px;
       bottom: -12px;
       margin-bottom: 460px;
       margin-right: 155px;
+      position: absolute;
+      right: -130px;
     }
 
     .value{
@@ -237,8 +237,8 @@
 
     .specifications{
       align-items: center;
-      margin-top: 40px;
       margin-right: 70px;
+      margin-top: 40px;
       width: 90%;
     }
 
@@ -247,18 +247,17 @@
     }
     
     .connection{
-      position: relative;
-      flex-direction: column;
-      z-index: 1;
-      margin: 170px auto 0 auto ;
       align-items: center;
+      flex-direction: column;
+      margin: 170px auto 0 auto ;
+      position: relative;
       width: 80%;
+      z-index: 1;
     }
 
     .pic-info{
-
-      width: 80%;
       margin: 0 auto;
+      width: 80%;
     }
 
     .user-information{
