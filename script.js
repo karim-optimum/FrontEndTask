@@ -24,7 +24,6 @@ function closePopup() {
 };
 
 document.onclick =  (event) => {
-  console.log(event.target)
   if (event.target === bigContainer) {
     closePopup();
 }};
