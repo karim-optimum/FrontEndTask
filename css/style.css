@@ -39,23 +39,8 @@ body{
   position: relative;
 }
 
-ul{
-  list-style: none;
-  padding: 0;
-}
-
-.logo{
-  font-family: var(--logo-font) !important;
-  font-size: 36px;
-}
-
-.green-color{
-  color: var(--green-color);
-  font-weight: 600;
-}
-
-.d-flex{
-  display: flex;
+button:hover{
+  cursor: pointer;
 }
 
 .btn{
@@ -71,14 +56,30 @@ ul{
   width: 168px;
 }
 
-button:hover{
-  cursor: pointer;
+.d-flex{
+  display: flex;
+}
+
+.green-color{
+  color: var(--green-color);
+  font-weight: 600;
+}
+
+.logo{
+  font-family: var(--logo-font) !important;
+  font-size: 36px;
 }
 
 .sections-container{
   margin: 100px auto 25px auto;
   width: 100%;
 }
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
 
 
 

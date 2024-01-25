@@ -109,7 +109,11 @@ input{
 /* ----------------- start of media query ----------------- */
 
 @media (max-width: 1080px) {
-  
+  .btn-subscribe{
+    font-size: 16px;
+    padding: 15px 25px;
+  }
+
   footer{
     font-size: 12px;
     border: none;
@@ -121,14 +125,14 @@ input{
     margin: 0 auto;
   }
   
-  .footer-title{
-    font-size: 18px;
-    padding-bottom: 10px;
-  }
-
   .footer-first{
     flex-direction: column;
     margin: 0;
+  }
+  
+  .footer-title{
+    font-size: 18px;
+    padding-bottom: 10px;
   }
 
   .newsletter, 
@@ -137,28 +141,24 @@ input{
     margin-top: 15px;
   }
 
-  .subscribe-container{
-    font-size: 11px;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-
-  .btn-subscribe{
-    font-size: 16px;
-    padding: 15px 25px;
-  }
-
-  .footer-second{
-    width: 100%;
-  }
   .footer-container{
     flex-direction: column;
+  }
+  
+  .footer-second{
+    width: 100%;
   }
 
   .social-media{
     margin: 0 auto;
     text-align: start;
     width: 90%;
+  }
+  
+  .subscribe-container{
+    font-size: 11px;
+    margin-top: 5px;
+    padding-left: 10px;
   }
 }
 

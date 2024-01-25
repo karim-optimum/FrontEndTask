@@ -1,27 +1,15 @@
 /* ----------------- start of desktop ----------------- */
-
-  .form-popup {
-    align-items: center;
-    background-color: var(--form-popup-background-color);
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    position: fixed;
-    top: 30;
-    width: 100%;
-    z-index: 3;
-  }
-
-  .form-display {
-    display: none !important;
-  }
-
   .container-big {
     width: 100%;
     height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .contact-pop-up {
+    justify-content: space-between;
+    padding: 10px;
   }
 
   .form-container {
@@ -38,9 +26,25 @@
     z-index: 2;
   }
 
-  .contact-pop-up {
-    justify-content: space-between;
-    padding: 10px;
+  .form-button {
+    align-self: flex-end;
+    margin-top: 60px;
+  }
+  
+  .form-display {
+    display: none !important;
+  }
+
+  .form-popup {
+    align-items: center;
+    background-color: var(--form-popup-background-color);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: fixed;
+    top: 30;
+    width: 100%;
+    z-index: 3;
   }
 
   .exit {
@@ -48,17 +52,9 @@
     font-size: 23px;
     font-weight: 500;
   }
-
-  .popup-title {
-    margin-top: 5px;
-  }
-
+  
   .exit:hover {
     cursor: pointer;
-  }
-
-  .required {
-    color: var(--red-color);
   }
 
   .input-border {
@@ -68,15 +64,17 @@
     width: 100%;
   }
 
+  .popup-title {
+    margin-top: 5px;
+  }
+
+  .required {
+    color: var(--red-color);
+  }
+
   .textarea {
     height: 120%;
     padding: 7px;
   }
-
-  .form-button {
-    margin-top: 60px;
-    align-self: flex-end;
-  }
-
   
 /* ----------------- end of desktop ----------------- */

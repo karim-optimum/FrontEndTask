@@ -1,0 +1,12 @@
+{
+	"editor.defaultFoldingRangeProvider": null,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.tabWidth": 3,
+	"prettier.useTabs": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.jsxSingleQuote": false,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true
+}

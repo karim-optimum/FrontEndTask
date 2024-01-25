@@ -1,463 +1,599 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reverifi</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/style.css">
-</head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Reverifi</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
 
-<body>
+	<body>
+		<nav class="navbar navbar-desktop d-flex">
+			<div class="nav-container d-flex">
+				<div class="first">
+					<ul class="d-flex">
+						<li><a href="#" target="_blank">Buy</a></li>
+						<li><a href="#" target="_blank">Rent</a></li>
+						<li><a href="#" target="_blank">Sell</a></li>
+						<li><a href="#" target="_blank">Knowledge Center</a></li>
+					</ul>
+				</div>
 
-	<nav class="navbar navbar-desktop d-flex">
-		
-		<div class="nav-container d-flex">
-			
-			<div class="first">
-				<ul class="d-flex">
-					<li><a href="#" target="_blank">Buy</a></li>
-					<li><a href="#" target="_blank">Rent</a></li>
-					<li><a href="#" target="_blank">Sell</a></li>
-					<li><a href="#" target="_blank">Knowledge Center</a></li>
-				</ul>
+				<div class="second">
+					<span class="logo green-color">reverifi</span>
+				</div>
+
+				<div class="third">
+					<ul class="d-flex">
+						<li><a href="#" target="_blank">RE PROS</a></li>
+						<li><a href="#" target="_blank">Events</a></li>
+						<li><a href="#" target="_blank">Leaderboard</a></li>
+					</ul>
+				</div>
 			</div>
 
-			<div class="second">
-				<span class="logo green-color">reverifi</span>
-			</div>
+			<div class="fourth d-flex">
+				<img
+					src="images/notify.png"
+					alt="notification"
+					class="notification" />
 
-			<div class="third">
-				<ul class="d-flex">
-					<li><a href="#" target="_blank">RE PROS</a></li>
-					<li><a href="#" target="_blank">Events</a></li>
-					<li><a href="#" target="_blank">Leaderboard</a></li>
-				</ul>
-			</div>
-			
-		</div>
-
-		<div class="fourth d-flex">
-      
-			<img src="images/notify.png" alt="notification" class="notification">
-      
-			<div class="user-manage d-flex">
-					<img class="user-logo" src="images/user.png" alt="user"> 
+				<div class="user-manage d-flex">
+					<img class="user-logo" src="images/user.png" alt="user" />
 					<p>Jacob Jones</p>
-					<img class="dropdown" width="14" height="8" src="images/dropdown.png" alt="dropdown">
+					<img
+						class="dropdown"
+						width="14"
+						height="8"
+						src="images/dropdown.png"
+						alt="dropdown" />
+				</div>
 			</div>
-	
-		</div>
-	</nav>
+		</nav>
 
-   <header class="header-mobile">
-        <nav class="navbar d-flex">
-           <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-            <p class="logo reverifi green-color">reverifi</p>
-            <ul class="nav-menu d-flex">
-               <li class="nav-item"><a class="nav-link" href="">Buy</a></li>
-               <li class="nav-item"><a class="nav-link" href="">Rent</a></li>
-               <li class="nav-item"><a class="nav-link" href="">Section</a></li>
-               <li class="nav-item"><a class="nav-link" href="">Knowledge Center</a></li>
-               <li class="nav-item"><a class="nav-link" href="">RE PROS</a></li>
-               <li class="nav-item"><a class="nav-link" href="">Events</a></li>
-               <li class="nav-item"><a class="nav-link" href="">Leaderboard</a></li>
-               <li class="nav-item"><a class="nav-link" href="">Jacob Jones</a></li>
-               <li class="nav-item"><a class="nav-link" href="">Notifications</a></li>
-            </ul>
-        </nav>
-    </header>
+		<header class="header-mobile">
+			<nav class="navbar d-flex">
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<p class="logo reverifi green-color">reverifi</p>
+				<ul class="nav-menu d-flex">
+					<li class="nav-item"><a class="nav-link" href="">Buy</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Rent</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Section</a></li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Knowledge Center</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="">RE PROS</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Events</a></li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Leaderboard</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Jacob Jones</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Notifications</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-   
-	 <div class="form-popup d-flex form-display">
+		<div class="form-popup d-flex form-display">
 			<div class="container-big">
 				<form class="form-container d-flex">
 					<div class="contact-pop-up d-flex">
-						 <h1 class="popup-title">Contact Jacob Jones</h1>
-						 <span class="exit">x</span>
+						<h1 class="popup-title">Contact Jacob Jones</h1>
+						<span class="exit">x</span>
 					</div>
 					<div class="name-input">
-						<label for="name">Name <span class="required">*</span></label><br>
-						<input class="input-border" type="text" title="name" name="name" required>
+						<label for="name">Name <span class="required">*</span></label
+						><br />
+						<input
+							class="input-border"
+							type="text"
+							title="name"
+							name="name"
+							required />
 					</div>
-			 
+
 					<div class="phonenumber-input">
-						<label for="phone">Phone Number <span class="required">*</span></label>
-						<input class="input-border" type="text" title="phone" name="phone" required>
+						<label for="phone"
+							>Phone Number <span class="required">*</span></label
+						>
+						<input
+							class="input-border"
+							type="text"
+							title="phone"
+							name="phone"
+							required />
 					</div>
- 
-					 <div class="email-input">
-						 <label for="email">Email <span class="required">*</span></label>
-						 <input class="input-border" type="email" title="email" name="email" required>
-					 </div>
- 
-					 <div class="textarea-input">
-						 <label for="message">Message</label>
-						 <textarea title="message" class="input-border textarea" style="border-radius: 25px;" name="message" id="message" cols="10" rows="5"></textarea>
-					 </div>
-			 
+
+					<div class="email-input">
+						<label for="email"
+							>Email <span class="required">*</span></label
+						>
+						<input
+							class="input-border"
+							type="email"
+							title="email"
+							name="email"
+							required />
+					</div>
+
+					<div class="textarea-input">
+						<label for="message">Message</label>
+						<textarea
+							title="message"
+							class="input-border textarea"
+							style="border-radius: 25px"
+							name="message"
+							id="message"
+							cols="10"
+							rows="5"></textarea>
+					</div>
+
 					<div class="form-button d-flex">
-						 <div class="empty"></div>
-						 <button type="submit" class="btn popup-contact-btn">Contact</button>
+						<div class="empty"></div>
+						<button type="submit" class="btn popup-contact-btn">
+							Contact
+						</button>
 					</div>
-			 </form>
+				</form>
 			</div>
-   </div>
+		</div>
 
-	<div class="sections-container">
-
-		<div class="profile d-flex">
-			<div class="container d-flex">
-				
-				<div class="pic-info">
-					<img src="images//man.png" alt="man" class="man-pic">
-					<div class="connection d-flex">
-						<!-- <div class="pic-info-empty"></div> -->
-						<button class="btn contact-btn">Contact</button>
-						<div class="social-media-profile-icons d-flex">
-							<a href="#" target="_blank"><img class="social-media-profile" src="images/profile-facebook.png" alt="facebook"></a>
-							<a href="#" target="_blank"><img class="social-media-profile" src="images/profile-youtube.png" alt="youtube"></a>
-							<a href="#" target="_blank"><img class="social-media-profile phone-icon" src="images/phone.png" alt="phone"></a>
-							<a href="#" target="_blank"><img class="social-media-profile" src="images/profile-linkedin.png" alt="linkedin"></a>
-							<a href="#" target="_blank"><img class="social-media-profile" src="images/profile-instagram.png" alt="instagram"></a>
+		<div class="sections-container">
+			<div class="profile d-flex">
+				<div class="container d-flex">
+					<div class="pic-info">
+						<img src="images//man.png" alt="man" class="man-pic" />
+						<div class="connection d-flex">
+							<!-- <div class="pic-info-empty"></div> -->
+							<button class="btn contact-btn">Contact</button>
+							<div class="social-media-profile-icons d-flex">
+								<a href="#" target="_blank"
+									><img
+										class="social-media-profile"
+										src="images/profile-facebook.png"
+										alt="facebook"
+								/></a>
+								<a href="#" target="_blank"
+									><img
+										class="social-media-profile"
+										src="images/profile-youtube.png"
+										alt="youtube"
+								/></a>
+								<a href="#" target="_blank"
+									><img
+										class="social-media-profile phone-icon"
+										src="images/phone.png"
+										alt="phone"
+								/></a>
+								<a href="#" target="_blank"
+									><img
+										class="social-media-profile"
+										src="images/profile-linkedin.png"
+										alt="linkedin"
+								/></a>
+								<a href="#" target="_blank"
+									><img
+										class="social-media-profile"
+										src="images/profile-instagram.png"
+										alt="instagram"
+								/></a>
+							</div>
 						</div>
 					</div>
-				</div>
-			
-      
-				<div class="user-information d-flex">
-					<div class="specifications d-flex">
-              <div class="info d-flex">
+
+					<div class="user-information d-flex">
+						<div class="specifications d-flex">
+							<div class="info d-flex">
 								<div class="name-search d-flex">
 									<p class="jacob">Jacob Jones</p>
-									<img width="35px" height="30.61px" class="search-icon" src="images/search-icon.png" alt="search-icon">
+									<img
+										width="35px"
+										height="30.61px"
+										class="search-icon"
+										src="images/search-icon.png"
+										alt="search-icon" />
 								</div>
-							<p>Lender/Mortgage</p=>
-							<p>NMLS #068543894</p>
-						</div>
-               </div>
-
-					<div class="about-me">
-						<p class="green-color space">About</p>
-						<p class="about-text">Lorem ipsum dolor sit amet consectetur. Rhoncus ultrices sed aliquam tristique orci velit est tellus. Et sed enim ut at scelerisque. Tincidunt proin justo nisi a. Iaculis potenti sagittis in tincidunt arcu diam nisl.</p>
-						<div class="skills d-flex">
-							<div class="two-skill-1">
-								<p class="green-color space">Language</p>
-								<p class="value">English</p>
-						
-								<p class="green-color phone space">Phone</p>
-								<p class="value">(406) 555-0120</p>
+								<p>Lender/Mortgage</p>
+								<p>NMLS #068543894</p>
 							</div>
-					
-							<div class="two-skill-2">
-								<p class="green-color space">Service Area</p>
-								<p class="value">New York</p>
-								
-								<p class="green-color email space">Email</p>
-								<p class="value">jacob.jones@example.com</p>
-							</div>
-							<div class="empty"></div>
-                     <div class="profile-icons d-flex">
-                           <img src="images/heart.png" style="margin-right: 8px;" alt="like">
-                           <img src="images/share.png" alt="share">
-                        </div>
-                     </div>
 						</div>
-            	</div>
-         	</div>
-      	</div>
-   	</div>
 
-		<section class="achievments-section">
-		
-			<div class="section-header">
-				<span class="achievment-section-title">Achievements</span>
-			
-				<div class="stats d-flex">
-					<div class="points d-flex">
-						<img src="images/points.png" alt="points">
-						<span style="font-size: 16px;"> 3300 Points</span>
-					</div>
-			
-					<div class="badges d-flex">
-						<img src="images/badges.png" alt="badges">
-						<span style="font-size: 16px;">B Badges</span>
+						<div class="about-me">
+							<p class="green-color space">About</p>
+							<p class="about-text">
+								Lorem ipsum dolor sit amet consectetur. Rhoncus ultrices
+								sed aliquam tristique orci velit est tellus. Et sed enim
+								ut at scelerisque. Tincidunt proin justo nisi a. Iaculis
+								potenti sagittis in tincidunt arcu diam nisl.
+							</p>
+							<div class="skills d-flex">
+								<div class="two-skill-1">
+									<p class="green-color space">Language</p>
+									<p class="value">English</p>
+
+									<p class="green-color phone space">Phone</p>
+									<p class="value">(406) 555-0120</p>
+								</div>
+
+								<div class="two-skill-2">
+									<p class="green-color space">Service Area</p>
+									<p class="value">New York</p>
+
+									<p class="green-color email space">Email</p>
+									<p class="value">jacob.jones@example.com</p>
+								</div>
+								<div class="empty"></div>
+								<div class="profile-icons d-flex">
+									<img
+										src="images/heart.png"
+										style="margin-right: 8px"
+										alt="like" />
+									<img src="images/share.png" alt="share" />
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		
+		</div>
+
+		<section class="achievments-section">
+			<div class="section-header">
+				<span class="achievment-section-title">Achievements</span>
+
+				<div class="stats d-flex">
+					<div class="points d-flex">
+						<img src="images/points.png" alt="points" />
+						<span style="font-size: 16px"> 3300 Points</span>
+					</div>
+
+					<div class="badges d-flex">
+						<img src="images/badges.png" alt="badges" />
+						<span style="font-size: 16px">B Badges</span>
+					</div>
+				</div>
+			</div>
+
 			<div class="d-flex achievments">
-				
-					<div class="achievment d-flex">
-						<img src="images//Accept-3-offers.png" alt="3-offers">
-						<div class="achievement-text">
-							<span class="offer">Accept 3 Offers</span>
-							<span class="date">5/27/2023</span>
-						</div>
+				<div class="achievment d-flex">
+					<img src="images//Accept-3-offers.png" alt="3-offers" />
+					<div class="achievement-text">
+						<span class="offer">Accept 3 Offers</span>
+						<span class="date">5/27/2023</span>
 					</div>
-				
-					<div class="achievment d-flex">
-						<img src="images/Accept-10-offers.png" alt="10-offers">
-						<div class="achievement-text">
-							<span class="offer">Accept 10 Offers</span>
-							<span class="date">4/27/2023</span>
-						</div>
-					</div>
+				</div>
 
-					<div class="achievment d-flex">
-						<img src="images/Accept-7-offers.png" alt="7-offers">
-						<div class="achievement-text">
-							<span class="offer">Accept 7 Offers</span>
-							<span class="date">5/29/2023</span>
-						</div>
+				<div class="achievment d-flex">
+					<img src="images/Accept-10-offers.png" alt="10-offers" />
+					<div class="achievement-text">
+						<span class="offer">Accept 10 Offers</span>
+						<span class="date">4/27/2023</span>
 					</div>
-				
-					<div class="achievment d-flex">
-						<img src="images/10-saves.png" alt="10-saves">
-						<div class="achievement-text">
-							<span class="offer">10 Saves</span>
-							<span class="date">6/27/2023</span>
-						</div>
-					</div>
+				</div>
 
-			</div>		
+				<div class="achievment d-flex">
+					<img src="images/Accept-7-offers.png" alt="7-offers" />
+					<div class="achievement-text">
+						<span class="offer">Accept 7 Offers</span>
+						<span class="date">5/29/2023</span>
+					</div>
+				</div>
+
+				<div class="achievment d-flex">
+					<img src="images/10-saves.png" alt="10-saves" />
+					<div class="achievement-text">
+						<span class="offer">10 Saves</span>
+						<span class="date">6/27/2023</span>
+					</div>
+				</div>
+			</div>
 		</section>
-	
+
 		<section class="listings-section">
 			<div class="listing-title-div">
 				<p class="listing-title">Listings</p>
 			</div>
 			<div class="cards">
-				<img src="images/left-arrow.png" id="prev" width="22" height="40.11" alt="previous">
-			
+				<img
+					src="images/left-arrow.png"
+					id="prev"
+					width="22"
+					height="40.11"
+					alt="previous" />
+
 				<div class="card">
 					<div class="image d-flex card-1 image-1">
-						<img class="closed-img" src="images/closed.png" alt="closed">
+						<img
+							class="closed-img"
+							src="images/closed.png"
+							alt="closed" />
 						<div class="image-info d-flex">
 							<div class="first-row d-flex">
 								<div class="sale-tag">Sale</div>
-									<div class="images-uploaded d-flex">
-										<span style="margin-right: 7px;">1</span>
-										<img src="images/camera.png" alt="camera">
-									</div>	
+								<div class="images-uploaded d-flex">
+									<span style="margin-right: 7px">1</span>
+									<img src="images/camera.png" alt="camera" />
 								</div>
-								<div class="location d-flex">
-									<img src="images/location.png" alt="location">
-									<span>Area 51, NV</span>
-								</div>
-							</div>	
+							</div>
+							<div class="location d-flex">
+								<img src="images/location.png" alt="location" />
+								<span>Area 51, NV</span>
+							</div>
 						</div>
-				
-						<div class="card-information d-flex">
-							<div class="price">
-								<div class="no-name">
-									<span class="green-color">$ 9,000,000</span>
-									<div class="icons">
-										<img src="images/heart.png" alt="like">
-										<button class="share"><img src="images//share.png" alt="share"></button>
-									</div>
-								</div>
-								<p style="color: #979797;">487 days on reverify</p>
-							</div>
-							<p class="sale">Sale</p>
-					
-							<div class="accomodations d-flex">
-								<div class="accomodation d-flex">
-									<span>5</span>	
-									<img src="images/bed.png" width="22" height="22" alt="bed">
-								</div>  
-		
-								<div class="accomodation d-flex">
-									<span>5</span>	
-									<img src="images/bath.png" width="22" height="22" alt="bed">
-								</div> 
-			
-								<div class="accomodation d-flex">
-									<span>3</span>	
-									<img src="images/garage.png" width="22" height="22" alt="bed">
-								</div> 
-							</div>
-							<div class="information d-flex">
+					</div>
+
+					<div class="card-information d-flex">
+						<div class="price">
+							<div class="no-name">
+								<span class="green-color">$ 9,000,000</span>
 								<div class="icons">
-									<img src="images/likes.png" alt="likes">
-									<img src="images/comments.png" alt="sections">
+									<img src="images/heart.png" alt="like" />
+									<button class="share">
+										<img src="images//share.png" alt="share" />
+									</button>
 								</div>
-								<button class="btn view-listings d-flex">View Listing</button>
 							</div>
+							<p style="color: #979797">487 days on reverify</p>
+						</div>
+						<p class="sale">Sale</p>
+
+						<div class="accomodations d-flex">
+							<div class="accomodation d-flex">
+								<span>5</span>
+								<img
+									src="images/bed.png"
+									width="22"
+									height="22"
+									alt="bed" />
+							</div>
+
+							<div class="accomodation d-flex">
+								<span>5</span>
+								<img
+									src="images/bath.png"
+									width="22"
+									height="22"
+									alt="bed" />
+							</div>
+
+							<div class="accomodation d-flex">
+								<span>3</span>
+								<img
+									src="images/garage.png"
+									width="22"
+									height="22"
+									alt="bed" />
+							</div>
+						</div>
+						<div class="information d-flex">
+							<div class="icons">
+								<img src="images/likes.png" alt="likes" />
+								<img src="images/comments.png" alt="sections" />
+							</div>
+							<button class="btn view-listings d-flex">
+								View Listing
+							</button>
+						</div>
 					</div>
 				</div>
 
-			<div class="card card-2">
+				<div class="card card-2">
 					<div class="image d-flex image-2">
-					<div class="image-info d-flex">
-						<div class="first-row d-flex">
-							<div class="sale-tag">Sale</div>
-							<div class="images-uploaded d-flex">
-								<span style="margin-right: 7px;">1</span>
-								<img src="images/camera.png" alt="camera">
-							</div>	
-						</div>
-						<div class="location d-flex">
-							<img src="images/location.png" alt="location">
-							<span>Area 51, NV</span>
-						</div>
-					</div>	
-					</div>
-					
-					<div class="card-information d-flex">
-					<div class="price">
-						<div class="no-name">
-									<span class="green-color">$ 9,000,000</span>
-									<div class="icons">
-										<img src="images/heart.png" alt="like">
-										<button class="share"><img src="images//share.png" alt="share"></button>
-									</div>
+						<div class="image-info d-flex">
+							<div class="first-row d-flex">
+								<div class="sale-tag">Sale</div>
+								<div class="images-uploaded d-flex">
+									<span style="margin-right: 7px">1</span>
+									<img src="images/camera.png" alt="camera" />
 								</div>
-								<p style="color: #979797;">487 days on reverify</p>
 							</div>
-					<p class="sale">Sale</p>
-					
-					<div class="accomodations d-flex">
-						<div class="accomodation d-flex">
-							<span>5</span>	
-							<img src="images/bed.png" width="22" height="22" alt="bed">
-						</div>  
-			
-						<div class="accomodation d-flex">
-							<span>5</span>	
-							<img src="images/bath.png" width="22" height="22" alt="bed">
-						</div> 
-			
-						<div class="accomodation d-flex">
-							<span>3</span>	
-							<img src="images/garage.png" width="22" height="22" alt="bed">
-						</div> 
-					</div>
-					<div class="information d-flex">
-						<div class="icons">
-							<img src="images/likes.png" alt="likes">
-							<img src="images/comments.png" alt="sections">
+							<div class="location d-flex">
+								<img src="images/location.png" alt="location" />
+								<span>Area 51, NV</span>
+							</div>
 						</div>
-						<button class="btn view-listings d-flex">View Listing</button>
 					</div>
+
+					<div class="card-information d-flex">
+						<div class="price">
+							<div class="no-name">
+								<span class="green-color">$ 9,000,000</span>
+								<div class="icons">
+									<img src="images/heart.png" alt="like" />
+									<button class="share">
+										<img src="images//share.png" alt="share" />
+									</button>
+								</div>
+							</div>
+							<p style="color: #979797">487 days on reverify</p>
+						</div>
+						<p class="sale">Sale</p>
+
+						<div class="accomodations d-flex">
+							<div class="accomodation d-flex">
+								<span>5</span>
+								<img
+									src="images/bed.png"
+									width="22"
+									height="22"
+									alt="bed" />
+							</div>
+
+							<div class="accomodation d-flex">
+								<span>5</span>
+								<img
+									src="images/bath.png"
+									width="22"
+									height="22"
+									alt="bed" />
+							</div>
+
+							<div class="accomodation d-flex">
+								<span>3</span>
+								<img
+									src="images/garage.png"
+									width="22"
+									height="22"
+									alt="bed" />
+							</div>
+						</div>
+						<div class="information d-flex">
+							<div class="icons">
+								<img src="images/likes.png" alt="likes" />
+								<img src="images/comments.png" alt="sections" />
+							</div>
+							<button class="btn view-listings d-flex">
+								View Listing
+							</button>
+						</div>
 					</div>
-					
 				</div>
 
 				<div class="card card-3">
 					<div class="image d-flex image-3">
-					<div class="image-info d-flex">
-						<div class="first-row d-flex">
-							<div class="sale-tag">Sale</div>
-							<div class="images-uploaded d-flex">
-								<span style="margin-right: 7px;">1</span>
-								<img src="images/camera.png" alt="camera">
-							</div>	
-						</div>
-						<div class="location d-flex">
-							<img src="images/location.png" alt="location">
-							<span>Area 51, NV</span>
-						</div>
-					</div>	
-					</div>
-					
-					<div class="card-information d-flex">
-					<div class="price">
-						<div class="no-name">
-									<span class="green-color">$ 9,000,000</span>
-									<div class="icons">
-										<img src="images/heart.png" alt="like">
-										<button class="share"><img src="images//share.png" alt="share"></button>
-									</div>
+						<div class="image-info d-flex">
+							<div class="first-row d-flex">
+								<div class="sale-tag">Sale</div>
+								<div class="images-uploaded d-flex">
+									<span style="margin-right: 7px">1</span>
+									<img src="images/camera.png" alt="camera" />
 								</div>
-								<p style="color: #979797;">487 days on reverify</p>
 							</div>
-					<p class="sale">Sale</p>
-					
-					<div class="accomodations d-flex">
-						<div class="accomodation d-flex">
-							<span>5</span>	
-							<img src="images/bed.png" width="22" height="22" alt="bed">
-						</div>  
-			
-						<div class="accomodation d-flex">
-							<span>5</span>	
-							<img src="images/bath.png" width="22" height="22" alt="bed">
-						</div> 
-			
-						<div class="accomodation d-flex">
-							<span>3</span>	
-							<img src="images/garage.png" width="22" height="22" alt="bed">
-						</div> 
-					</div>
-					<div class="information d-flex">
-						<div class="icons">
-							<img src="images/likes.png" alt="likes">
-							<img src="images/comments.png" alt="sections">
+							<div class="location d-flex">
+								<img src="images/location.png" alt="location" />
+								<span>Area 51, NV</span>
+							</div>
 						</div>
-						<button class="btn view-listings d-flex">View Listing</button>
 					</div>
+
+					<div class="card-information d-flex">
+						<div class="price">
+							<div class="no-name">
+								<span class="green-color">$ 9,000,000</span>
+								<div class="icons">
+									<img src="images/heart.png" alt="like" />
+									<button class="share">
+										<img src="images//share.png" alt="share" />
+									</button>
+								</div>
+							</div>
+							<p style="color: #979797">487 days on reverify</p>
+						</div>
+						<p class="sale">Sale</p>
+
+						<div class="accomodations d-flex">
+							<div class="accomodation d-flex">
+								<span>5</span>
+								<img
+									src="images/bed.png"
+									width="22"
+									height="22"
+									alt="bed" />
+							</div>
+
+							<div class="accomodation d-flex">
+								<span>5</span>
+								<img
+									src="images/bath.png"
+									width="22"
+									height="22"
+									alt="bed" />
+							</div>
+
+							<div class="accomodation d-flex">
+								<span>3</span>
+								<img
+									src="images/garage.png"
+									width="22"
+									height="22"
+									alt="bed" />
+							</div>
+						</div>
+						<div class="information d-flex">
+							<div class="icons">
+								<img src="images/likes.png" alt="likes" />
+								<img src="images/comments.png" alt="sections" />
+							</div>
+							<button class="btn view-listings d-flex">
+								View Listing
+							</button>
+						</div>
 					</div>
-					
 				</div>
 
-				<img src="images/right-arrow.png" id="next" width="22" height="40.11" alt="next">
+				<img
+					src="images/right-arrow.png"
+					id="next"
+					width="22"
+					height="40.11"
+					alt="next" />
 			</div>
 		</section>
 
-	</div>
-
-  
-   <footer class="footer">
-		<div class="social-media">
-			<img class="icon" src="images/instagram 1.png" alt="instagram">
-			<img class="icon" src="images/linkedin 1.png" alt="linkedin">
-			<img class="icon" src="images/share-listing-twitter 1.png" alt="twitter">
-		</div>
-      <div class="footer-container d-flex">
-
-      
-			
-		<div class="footer-first d-flex">
-			<h1 class="logo logo-footer green-color">reverifi</h1>
-			<div class="footer-company-section">
-				<h3 class="green-color footer-title">Company</h3>
-				<ul>
-				<li><a href="#" target="_blank">FAQs</a></li>
-				<li><a href="#" target="_blank">Privacy Policy</a></li>
-				<li><a href="#" target="_blank">How we work</a></li>
-				<li><a href="#" target="_blank">Closed Deals</a></li>
-				</ul>
+		<footer class="footer">
+			<div class="social-media">
+				<img class="icon" src="images/instagram 1.png" alt="instagram" />
+				<img class="icon" src="images/linkedin 1.png" alt="linkedin" />
+				<img
+					class="icon"
+					src="images/share-listing-twitter 1.png"
+					alt="twitter" />
 			</div>
+			<div class="footer-container d-flex">
+				<div class="footer-first d-flex">
+					<h1 class="logo logo-footer green-color">reverifi</h1>
+					<div class="footer-company-section">
+						<h3 class="green-color footer-title">Company</h3>
+						<ul>
+							<li><a href="#" target="_blank">FAQs</a></li>
+							<li><a href="#" target="_blank">Privacy Policy</a></li>
+							<li><a href="#" target="_blank">How we work</a></li>
+							<li><a href="#" target="_blank">Closed Deals</a></li>
+						</ul>
+					</div>
 
-			<div class="footer-contact-section">
-				<h3 class="green-color footer-title">Contact</h3>
-				<ul>
-					<li><a href="#" target="_blank">support@reverifi.com</a></li>
-					<li><a href="#" target="_blank">sales@reverifi.com</a></li>
-				</ul>
-			</div>
+					<div class="footer-contact-section">
+						<h3 class="green-color footer-title">Contact</h3>
+						<ul>
+							<li>
+								<a href="#" target="_blank">support@reverifi.com</a>
+							</li>
+							<li><a href="#" target="_blank">sales@reverifi.com</a></li>
+						</ul>
+					</div>
 
-			<div class="newsletter">
-				<h3 class="green-color footer-title">Subscribe to our newsletter</h3>
-				<div class="subscribe-container">
-					<input id="input" type="text" placeholder="Enter email address">
-					<button class="btn-subscribe">Subscribe</button>
+					<div class="newsletter">
+						<h3 class="green-color footer-title">
+							Subscribe to our newsletter
+						</h3>
+						<div class="subscribe-container">
+							<input
+								id="input"
+								type="text"
+								placeholder="Enter email address" />
+							<button class="btn-subscribe">Subscribe</button>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-</div>
-		<div class="footer-second d-flex">
-			<p>Copyright @2023 reverifi. All rights reserved.</p>
-		</div>
-	</footer>
+			<div class="footer-second d-flex">
+				<p>Copyright @2023 reverifi. All rights reserved.</p>
+			</div>
+		</footer>
 
-  
-	<script src="script.js"></script>
-
-</body>
+		<script src="script.js"></script>
+	</body>
 </html>
