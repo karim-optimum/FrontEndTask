@@ -7,7 +7,7 @@ let popUpBtn = document.querySelector('.popup-contact-btn');
 let hamburgerMenu = document.querySelector('.hamburger');
 let navMenu = document.querySelector('.nav-menu');
 let links = document.querySelectorAll('.nav-link');
-const cards = document.querySelectorAll('.card');
+let cards = document.querySelectorAll('.card');
 let prevButton = document.getElementById('prev');
 let nextButton = document.getElementById('next');
 let url = '';
@@ -33,7 +33,7 @@ shareButtons.forEach((shareButton) => {
     
     setTimeout(() => {
       document.body.removeChild(messageDiv);
-    }, 3000);
+    }, 1500);
   };
 });
 
@@ -73,8 +73,6 @@ document.onclick =  (event) => {
 }};
 
 let currentIndex = 0;
-
-
 
 prevButton.onclick = () => {
     if (window.innerWidth <= 1150) {
