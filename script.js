@@ -5,12 +5,29 @@ let exitButton = document.querySelector('.exit');
 let popUpInputs = document.querySelectorAll('.input-border');
 let popUpBtn = document.querySelector('.popup-contact-btn');
 let hamburgerMenu = document.querySelector('.hamburger');
+let bigContainer = document.querySelector('.container-big');
 let navMenu = document.querySelector('.nav-menu');
 let links = document.querySelectorAll('.nav-link');
 let cards = document.querySelectorAll('.card');
 let prevButton = document.getElementById('prev');
 let nextButton = document.getElementById('next');
 let url = '';
+
+contactButton.onclick = () => {
+  formPopUp.classList.remove('form-display');
+  formPopUp.style.display = 'block';
+};
+
+function closePopup() {
+  // Code to close the popup
+  formPopUp.style.display = 'none';
+};
+
+document.onclick =  (event) => {
+  console.log(event.target)
+  if (event.target === bigContainer) {
+    closePopup();
+}};
 
 shareButtons.forEach((shareButton) => {
   shareButton.onclick = () => {
@@ -42,10 +59,7 @@ links.forEach(link => link.onclick = () => {
   navMenu.classList.remove('active')
 });
 
-contactButton.onclick = () => {
-  formPopUp.classList.remove('form-display');
-  formPopUp.style.display = 'block';
-};
+
 
 exitButton.onclick = () => {
   formPopUp.classList.add('form-display');
@@ -61,16 +75,6 @@ hamburgerMenu.onclick = ()=> {
   hamburgerMenu.classList.toggle("active");
   navMenu.classList.toggle("active");
 };
-
-function closePopup() {
-  // Code to close the popup
-  formPopUp.style.display = 'none';
-};
-
-document.onclick =  (event) => {
-  if (event.target == formPopUp) {
-    closePopup();
-}};
 
 let currentIndex = 0;
 
